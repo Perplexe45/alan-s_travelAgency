@@ -1,0 +1,687 @@
+{
+    "packages": [
+        {
+            "name": "ionos/assistant-feature-auto-update",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/assistant-feature/auto-update.git",
+                "reference": "3a7a6c5d92007c440c7b521636fc21c9f88e0ec8"
+            },
+            "require": {
+                "ionos/ionos-library": "^1.0.0"
+            },
+            "require-dev": {
+                "behat/behat": "^3.10",
+                "behat/mink": "^1.10",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "dmore/behat-chrome-extension": "^1.4",
+                "dmore/chrome-mink-driver": "^2.8",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpunit/phpunit": "^6",
+                "wp-coding-standards/wpcs": "^2.3",
+                "yoast/phpunit-polyfills": "^1.0.3"
+            },
+            "time": "2022-10-26T10:05:33+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "inc/"
+                ],
+                "files": [
+                    "load.php",
+                    "inc/class-manager.php"
+                ]
+            },
+            "scripts": {
+                "test-local": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit"
+                ],
+                "test-local-full": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ],
+                "test-docker": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite default"
+                ],
+                "test-docker-full": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ],
+                "prepare": [],
+                "php-lint": [
+                    "phpcs --standard=phpcs.xml -s"
+                ],
+                "php-fix": [
+                    "phpcbf --standard=phpcs.xml"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "Feature that forces auto updates for all plugins",
+            "install-path": "../ionos/assistant-feature-auto-update"
+        },
+        {
+            "name": "ionos/assistant-feature-banner",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/assistant-feature/banner.git",
+                "reference": "ac16b13678c39090b8c5f4cc6733000decbcb341"
+            },
+            "require": {
+                "ionos/ionos-library": "^1.0.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpunit/phpunit": "^6",
+                "wp-coding-standards/wpcs": "^2.3",
+                "yoast/phpunit-polyfills": "^1.0.3"
+            },
+            "time": "2022-08-11T09:57:18+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "inc/"
+                ],
+                "files": [
+                    "load.php"
+                ]
+            },
+            "scripts": {
+                "test-local": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit"
+                ],
+                "test-local-full": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ],
+                "test-docker": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite default"
+                ],
+                "test-docker-full": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ],
+                "prepare": [
+                    "if [[ \"$OSTYPE\" == \"darwin\"* ]]; then find . -type f -name '*.php' -exec sed -i '' s/Ionos\Assistant/_Pre0\\\\\\\\Assistant/g {} +; fi",
+                    "if [[ \"$OSTYPE\" != \"darwin\"* ]]; then find . -type f -name '*.php' -exec sed -i s/Ionos\Assistant/_Pre0\\\\\\\\Assistant/g {} +; fi"
+                ],
+                "php-lint": [
+                    "phpcs --standard=phpcs.xml -s"
+                ],
+                "php-fix": [
+                    "phpcbf --standard=phpcs.xml"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "Assistant banner feature",
+            "install-path": "../ionos/assistant-feature-banner"
+        },
+        {
+            "name": "ionos/assistant-feature-descriptify",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/assistant-feature/descriptify.git",
+                "reference": "23246ffd280330f745c0000402c5d2fbde0b9e8a"
+            },
+            "require": {
+                "ionos/ionos-library": "^1.0.0"
+            },
+            "require-dev": {
+                "behat/behat": "^3.10",
+                "behat/mink": "^1.10",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "dmore/behat-chrome-extension": "^1.4",
+                "dmore/chrome-mink-driver": "^2.8",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpunit/phpunit": "^6",
+                "wp-coding-standards/wpcs": "^2.3",
+                "yoast/phpunit-polyfills": "^1.0.3"
+            },
+            "time": "2022-08-11T09:50:50+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "inc/"
+                ],
+                "files": [
+                    "load.php",
+                    "inc/class-manager.php"
+                ]
+            },
+            "scripts": {
+                "test-local": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit"
+                ],
+                "test-local-full": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ],
+                "test-docker": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite default"
+                ],
+                "test-docker-full": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ],
+                "prepare": [],
+                "php-lint": [
+                    "phpcs --standard=phpcs.xml -s"
+                ],
+                "php-fix": [
+                    "phpcbf --standard=phpcs.xml"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "Adds descriptions to other HTML content",
+            "install-path": "../ionos/assistant-feature-descriptify"
+        },
+        {
+            "name": "ionos/assistant-feature-jetpack-backup-flow",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/assistant-feature/jetpack-backup-flow.git",
+                "reference": "22c854016275cbcb64db5354b80967d4ab7c87cb"
+            },
+            "require": {
+                "ionos/hidden-admin-page": "^1.0.0",
+                "ionos/ionos-library": "^1.0.0",
+                "ionos/login-redirect": "^1.0.0"
+            },
+            "require-dev": {
+                "behat/behat": "^3.10",
+                "behat/mink": "^1.10",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "dmore/behat-chrome-extension": "^1.4",
+                "dmore/chrome-mink-driver": "^2.8",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpunit/phpunit": "^6",
+                "wp-coding-standards/wpcs": "^2.3",
+                "yoast/phpunit-polyfills": "^1.0.3"
+            },
+            "time": "2022-08-11T09:51:06+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "inc/"
+                ],
+                "files": [
+                    "load.php",
+                    "inc/class-manager.php"
+                ]
+            },
+            "scripts": {
+                "test-local": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit"
+                ],
+                "test-local-full": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ],
+                "test-docker": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite default"
+                ],
+                "test-docker-full": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ],
+                "prepare": [
+                    "if [[ \"$OSTYPE\" == \"darwin\"* ]]; then find . -type f -name '*.php' -exec sed -i '' s/Ionos\Assistant/_Pre0\\\\\\\\Assistant/g {} +; fi",
+                    "if [[ \"$OSTYPE\" != \"darwin\"* ]]; then find . -type f -name '*.php' -exec sed -i s/Ionos\Assistant/_Pre0\\\\\\\\Assistant/g {} +; fi"
+                ],
+                "php-lint": [
+                    "phpcs --standard=phpcs.xml -s"
+                ],
+                "php-fix": [
+                    "phpcbf --standard=phpcs.xml"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "The flow to install Jetpack Backup",
+            "install-path": "../ionos/assistant-feature-jetpack-backup-flow"
+        },
+        {
+            "name": "ionos/assistant-feature-login-redesign",
+            "version": "1.1.3",
+            "version_normalized": "1.1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/assistant-feature/login-redesign.git",
+                "reference": "0573e96a12cc8fcbcd6546b46879bf2634d1f2d2"
+            },
+            "require": {
+                "ionos/ionos-library": "^1.0.0"
+            },
+            "require-dev": {
+                "behat/behat": "^3.10",
+                "behat/mink": "^1.10",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "dmore/behat-chrome-extension": "^1.4",
+                "dmore/chrome-mink-driver": "^2.8",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpunit/phpunit": "^6",
+                "wp-coding-standards/wpcs": "^2.3",
+                "yoast/phpunit-polyfills": "^1.0.3"
+            },
+            "time": "2022-10-11T13:37:07+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "inc/"
+                ],
+                "files": [
+                    "load.php",
+                    "inc/class-manager.php"
+                ]
+            },
+            "scripts": {
+                "test-local": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit"
+                ],
+                "test-local-full": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ],
+                "test-docker": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite default"
+                ],
+                "test-docker-full": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ],
+                "prepare": [],
+                "php-lint": [
+                    "phpcs --standard=phpcs.xml -s"
+                ],
+                "php-fix": [
+                    "phpcbf --standard=phpcs.xml"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "Redesigns the WordPress login page",
+            "install-path": "../ionos/assistant-feature-login-redesign"
+        },
+        {
+            "name": "ionos/assistant-feature-wizard",
+            "version": "1.2.1",
+            "version_normalized": "1.2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/assistant-feature/wizard.git",
+                "reference": "709ad736838483bc3cf62e279392cd9183a15333"
+            },
+            "require": {
+                "ionos/ionos-library": "^1.4.0",
+                "ionos/login-redirect": "^1.0.0"
+            },
+            "require-dev": {
+                "behat/behat": "^3.10",
+                "behat/mink": "^1.10",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "dmore/behat-chrome-extension": "^1.4",
+                "dmore/chrome-mink-driver": "^2.8",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpunit/phpunit": "^6",
+                "wp-coding-standards/wpcs": "^2.3",
+                "yoast/phpunit-polyfills": "^1.0.3"
+            },
+            "time": "2022-10-18T08:03:38+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "inc/"
+                ],
+                "files": [
+                    "load.php",
+                    "inc/class-manager.php"
+                ]
+            },
+            "scripts": {
+                "test-local": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit"
+                ],
+                "test-local-full": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ],
+                "test-docker": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite default"
+                ],
+                "test-docker-full": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ],
+                "prepare": [
+                    "if [[ \"$OSTYPE\" == \"darwin\"* ]]; then find . -type f -name '*.php' -exec sed -i '' s/Ionos\Assistant/_Pre0\\\\\\\\Assistant/g {} +; fi",
+                    "if [[ \"$OSTYPE\" != \"darwin\"* ]]; then find . -type f -name '*.php' -exec sed -i s/Ionos\Assistant/_Pre0\\\\\\\\Assistant/g {} +; fi"
+                ],
+                "php-lint": [
+                    "phpcs --standard=phpcs.xml -s"
+                ],
+                "php-fix": [
+                    "phpcbf --standard=phpcs.xml"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "Assistant wizard feature",
+            "install-path": "../ionos/assistant-feature-wizard"
+        },
+        {
+            "name": "ionos/hidden-admin-page",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/package/hidden-admin-page.git",
+                "reference": "e9ac4e45ab39203919a0ac71892ad78148c2635a"
+            },
+            "time": "2022-05-27T09:54:22+00:00",
+            "type": "wordpress-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Ionos\\HiddenAdminPage\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                }
+            ],
+            "install-path": "../ionos/hidden-admin-page"
+        },
+        {
+            "name": "ionos/ionos-library",
+            "version": "1.6.1",
+            "version_normalized": "1.6.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/package/ionos-library.git",
+                "reference": "e6b21d4b2ac40b807b084864c2fed4b8431bb971"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6"
+            },
+            "time": "2022-10-21T11:23:10+00:00",
+            "type": "wordpress-dropin",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "test": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite default"
+                ]
+            },
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "IONOS library for internal WordPress plugins",
+            "install-path": "../ionos/ionos-library"
+        },
+        {
+            "name": "ionos/login-redirect",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/package/login-redirect.git",
+                "reference": "bcf410e21d9bf0272c9aadbb4e2af1b1ad3ddecc"
+            },
+            "time": "2022-06-13T13:30:04+00:00",
+            "type": "wordpress-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Ionos\\LoginRedirect\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                }
+            ],
+            "install-path": "../ionos/login-redirect"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

@@ -1,0 +1,303 @@
+/*
+Plugin Name:  IONOS Welcome
+Plugin URI:   https://www.ionos.com
+Description:  SSO for WordPress
+Version:
+License:      GPLv2 or later
+Author:       IONOS
+Author URI:   https://www.ionos.com
+Text Domain:  ionos-welcome
+@package ionos-welcome
+*/
+
+#ionos-journey-overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99999;
+    pointer-events: all;
+}
+#ionos-journey-overlay #ionos-journey-guide {
+    border: none;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 312px;
+    min-width: 312px;
+    height: 80vh;
+    max-height: 575px;
+    top: 50%;
+    left: 50%;
+    bottom: auto;
+    right: auto;
+    background: white;
+    visibility: hidden;
+}
+#ionos-journey-overlay #ionos-journey-guide.tiny {
+    height: 0;
+    width: 0;
+    min-width: 0;
+    left: -100px;
+    top: -100px;
+}
+
+#ionos-journey-overlay #ionos-journey-focus .ionos-journey-guide-headline {
+    text-align: center;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None;
+}
+
+#ionos-journey-overlay #ionos-journey-focus .ionos-journey-guide-image {
+    width: 100%;
+    height: 208px;
+}
+
+#ionos-journey-overlay #ionos-journey-focus {
+    border: solid 4px transparent;
+    position: fixed;
+    z-index: 99999;
+    box-shadow: 0px 0px 2px 2000px rgba(0, 0, 0, 0.5), 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    cursor: default;
+}
+#ionos-journey-overlay #ionos-journey-focus.clickable {
+    pointer-events: all;
+    cursor: pointer;
+}
+
+/* Sprechblase */
+#ionos-journey-overlay #ionos-journey-bubble
+{
+    position: relative;
+    width: 250px;
+    min-height: 120px;
+    padding: 0px;
+    background: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: #003d8f solid 3px;
+    padding: 20px;
+    line-height: 20px;
+    pointer-events: none;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+#ionos-journey-overlay #ionos-journey-bubble:after, #ionos-journey-overlay #ionos-journey-bubble:before
+{
+    position: absolute;
+    border-style: solid;
+    display: block;
+    width: 0;
+}
+
+#ionos-journey-overlay .bubble-left:before {
+    content: '';
+    border-width: 19px 19px 19px 0;
+    border-color: transparent #003d8f;
+    left: -19px;
+    top: 36px;
+    z-index: 0
+}
+#ionos-journey-overlay .bubble-left:after {
+    content: '';
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #fff;
+    left: -15px;
+    top: 40px;
+    z-index: 1;
+}
+#ionos-journey-overlay .bubble-right:before {
+    content: '';
+    border-width: 19px 0 19px 19px;
+    border-color: transparent #003d8f;
+    right: -19px;
+    top: 36px;
+    z-index: 1;
+}
+#ionos-journey-overlay .bubble-right:after {
+    content: '';
+    border-width: 15px 0 15px 15px;
+    border-color: transparent #fff;
+    right: -15px;
+    top: 40px;
+    z-index: 1;
+}
+#ionos-journey-overlay .bubble-top:before {
+    content: '';
+    border-width: 0 19px 19px;
+    border-color: #003d8f transparent;
+    top: -19px;
+    left: 101px;
+    z-index: 0;
+}
+#ionos-journey-overlay .bubble-top:after {
+    content: '';
+    border-width: 0 15px 15px;
+    border-color: #fff transparent;
+    top: -15px;
+    left: 105px;
+    z-index: 1;
+}
+#ionos-journey-overlay .bubble-bot:before {
+    content: '';
+    border-width: 19px 19px 0;
+    border-color: #003d8f transparent;
+    bottom: -19px;
+    left: 101px;
+    z-index: 0;
+}
+#ionos-journey-overlay .bubble-bot:after {
+    content: '';
+    border-width: 15px 15px 0;
+    border-color: #fff transparent;
+    bottom: -15px;
+    left: 105px;
+    z-index: 1;
+}
+#ionos-journey-overlay #ionos-journey-bubble border_orange,
+#ionos-journey-overlay #ionos-journey-bubble border_green,
+#ionos-journey-overlay #ionos-journey-bubble border_red,
+#ionos-journey-overlay #ionos-journey-bubble border_blue
+{
+    border: solid 2px orange;
+    padding: 0 3px 0 3px;
+}
+#ionos-journey-overlay #ionos-journey-bubble border_green
+{
+    border-color: green;
+}
+#ionos-journey-overlay #ionos-journey-bubble border_red
+{
+    border-color: red;
+}
+#ionos-journey-overlay #ionos-journey-bubble border_blue
+{
+    border-color: blue;
+}
+
+#ionos-journey-overlay .clickable {
+    cursor: pointer;
+}
+
+#wpadminbar li > #journeyBack,
+#wpadminbar li > #journeyNext {
+    width: 20px;
+}
+#wpadminbar li > #journeyNext:before {
+    content: "\f519";
+    top: 4px;
+    float: left;
+}
+#wpadminbar li > #journeyStop:before {
+    content: "\f523";
+    margin-left: 0;
+    top: 4px;
+    float: right;
+}
+#wpadminbar li > #journeyBack:before {
+    content: "\f518";
+    margin-right: 0;
+    top: 4px;
+    float: right;
+}
+#wpadminbar li > #journeyStart:after {
+    content: "\f522";
+    top: 6px;
+    position: relative;
+    transition: all .1s ease-in-out;
+    color: rgba(240,245,250,.6);
+    font: normal 20px/1 dashicons;
+    margin-left: 4px;
+    float: right;
+}
+#ionos-journey-focus .ionos-journey-guide-progress {
+    text-align: center;
+    cursor: pointer;
+    pointer-events: all;
+}
+#ionos-journey-focus .ionos-journey-guide-progress li{
+    display: inline-block;
+    cursor: pointer;
+}
+#ionos-journey-focus .ionos-journey-guide-progress li button{
+    border: none;
+    background-color: transparent;
+    height: auto;
+    padding: 6px;
+    cursor: pointer;
+}
+#ionos-journey-focus .ionos-journey-guide-text {
+    margin-left: 15px;
+    margin-right: 15px;
+
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None;
+}
+#ionos-journey-focus .ionos-journey-guide-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    margin: 15px;
+    right: 0;
+}
+
+#ionos-journey-focus #ionos-journey-guide-next,
+#ionos-journey-focus #ionos-journey-guide-back {
+    float: right;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    color: #003d8f;
+    font-size: 1.2em;
+    pointer-events: all;
+}
+#ionos-journey-focus #ionos-journey-guide-next:hover,
+#ionos-journey-focus #ionos-journey-guide-back:hover {
+    text-decoration: underline;
+}
+#ionos-journey-focus #ionos-journey-guide-next:active,
+#ionos-journey-focus #ionos-journey-guide-back:active{
+    color: black;
+    border: solid 1px #003d8f;
+}
+
+#ionos-journey-focus #ionos-journey-guide-back {
+    float: left;
+}
+
+@media screen and (max-width:782px){
+    #wpadminbar li.ionos_journey_container {
+        display: block;
+    }
+    #wpadminbar li > #journeyBack,
+    #wpadminbar li > #journeyNext {
+        width: auto;
+    }
+    #wpadminbar li.ionos_journey_container #journeyStart:after,
+    #wpadminbar li.ionos_journey_container #journeyNext:before,
+    #wpadminbar li.ionos_journey_container #journeyStop:before,
+    #wpadminbar li.ionos_journey_container #journeyBack:before{
+        display: none;
+    }
+    #wpadminbar li.ionos_journey_container #journeyStart .ab-icon::before,
+    #wpadminbar li.ionos_journey_container #journeyNext .ab-icon::before,
+    #wpadminbar li.ionos_journey_container #journeyStop .ab-icon::before,
+    #wpadminbar li.ionos_journey_container #journeyBack .ab-icon::before {
+        top: -3px;
+        line-height: 1.33333333;
+        height: 46px !important;
+        text-align: center;
+        width: 52px;
+        display: block;
+    }
+
+    #wpadminbar li.ionos_journey_container #journeyStart .ab-icon::before { content: "\f522"; }
+    #wpadminbar li.ionos_journey_container #journeyNext .ab-icon::before { content: "\f519"; }
+    #wpadminbar li.ionos_journey_container #journeyStop .ab-icon::before { content: "\f523"; }
+    #wpadminbar li.ionos_journey_container #journeyBack .ab-icon::before { content: "\f518"; }
+}

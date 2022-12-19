@@ -1,0 +1,11 @@
+/* @group Dashboard */
+#dashboard_right_now .ionos-performance-icon {
+    width: 19px;
+    height: 13px;
+    fill: #606a73;
+}
+
+#dashboard_right_now li a.ionos-performance-glance::before {
+    content: "";
+    padding: 0;
+}/* @end group */

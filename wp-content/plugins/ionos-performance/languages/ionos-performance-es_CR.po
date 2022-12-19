@@ -1,0 +1,326 @@
+# Translation of Plugins - Cachify - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Cachify - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-11 13:35:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Cachify - Stable (latest release)\n"
+
+#: inc/setup/cachify.hdd.htaccess.php:81
+msgid "In case of special character errors, you can add the following to the .htaccess file:"
+msgstr "En caso de errores de caracteres especiales, puedes añadir lo siguiente al archivo «.htaccess»:"
+
+#: inc/setup/cachify.hdd.htaccess.php:75
+msgid "If there are partial errors in the redirects within the blog, the shutdown of the Apache Content Cache can help:"
+msgstr "Si hay errores parciales en las redirecciones dentro del blog, el cierre de la caché de contenido de Apache puede ayudar:"
+
+#: inc/setup/cachify.hdd.htaccess.php:72
+msgid "Changes to the .htaccess file can not be made if PHP is run as fcgi."
+msgstr "No se pueden realizar cambios en el archivo .htaccess si PHP se ejecuta como fcgi."
+
+#: inc/setup/cachify.hdd.htaccess.php:69
+msgid "Within .htaccess, the extension has a higher priority and must be placed above the WordPress Rewrite rules (marked mostly by # BEGIN WordPress … # END WordPress)."
+msgstr "Dentro de .htaccess, la extensión tiene una prioridad más alta y debe colocarse por encima de las reglas de reescritura de WordPress (marcadas principalmente por # BEGIN WordPress… # END WordPress)."
+
+#: inc/setup/cachify.hdd.htaccess.php:55
+msgid ".htaccess HDD setup"
+msgstr "Configuración de .htaccess de HDD"
+
+#: inc/setup/cachify.hdd.nginx.php:15
+msgid "nginx HDD setup"
+msgstr "Configuración de HDD de nginx"
+
+#: inc/setup/cachify.hdd.nginx.php:83 inc/setup/cachify.memcached.nginx.php:91
+msgid "You might need to adjust the location directives to your needs."
+msgstr "Es posible que tengas que ajustar las directivas de localización según tus necesidades."
+
+#. translators: code
+#: inc/setup/cachify.memcached.nginx.php:44
+msgid "If you have errors please try to change %1$s to %2$s This forces IPv4 because some servers that allow IPv4 and IPv6 are configured to bind memcached to IPv4 only."
+msgstr "Si tienes errores, por favor, intenta cambiar %1$s a %2$s. Esto obliga a IPv4 porque algunos servidores que permiten IPv4 e IPv6 están configurados para vincular memcached solo a IPv4."
+
+#. translators: variable names
+#. translators: variable names
+#: inc/setup/cachify.hdd.nginx.php:34 inc/setup/cachify.memcached.nginx.php:34
+msgid "For domains with FQDN, the variable %1$s must be used instead of %2$s."
+msgstr "Para dominios con FQDN, se debe usar la variable %1$s en lugar de %2$s."
+
+#: inc/setup/cachify.hdd.htaccess.php:64 inc/setup/cachify.hdd.nginx.php:26
+#: inc/setup/cachify.memcached.nginx.php:26
+msgid "Notes"
+msgstr "Notas"
+
+#: inc/setup/cachify.hdd.nginx.php:19 inc/setup/cachify.memcached.nginx.php:19
+msgid "Please add the following lines to your nginx.conf"
+msgstr "Por favor, añade las siguientes líneas a tu nginx.conf"
+
+#: inc/setup/cachify.memcached.nginx.php:15
+msgid "nginx Memcached setup"
+msgstr "Configuración de Memcached de nginx"
+
+#: inc/setup/cachify.apc.htaccess.php:26 inc/setup/cachify.hdd.htaccess.php:58
+msgid "Please add the following lines to your .htaccess file"
+msgstr "Por favor, añade las siguientes líneas a tu archivo «.htaccess»"
+
+#: inc/setup/cachify.apc.htaccess.php:22
+msgid ".htaccess APC setup"
+msgstr "Configuración de .htaccess de APC"
+
+#: inc/setup/cachify.apc.nginx.php:53
+msgid "You might need to adjust the non-highlighted lines to your needs."
+msgstr "Es posible que tengas que ajustar las líneas no resaltadas según tus necesidades."
+
+#: inc/setup/cachify.apc.nginx.php:34
+msgid "Please add the following lines to your nginx PHP configuration"
+msgstr "Por favor, añade las siguientes líneas a tu configuración de PHP de nginx"
+
+#: inc/setup/cachify.apc.nginx.php:30
+msgid "nginx APC setup"
+msgstr "Configuración de APC de nginx"
+
+#: inc/cachify.settings-footer.php:13
+msgid "FAQ"
+msgstr "FAQ"
+
+#: inc/cachify.settings-footer.php:13
+msgid "https://cachify.pluginkollektiv.org/documentation/faq/"
+msgstr "https://cachify.pluginkollektiv.org/documentation/faq/"
+
+#: inc/class-cachify.php:1655 inc/class-cachify.php:1661
+#: inc/class-cachify.php:1667
+msgid "Setup"
+msgstr "Configuración"
+
+#: inc/class-cachify.php:1565
+msgid "The server configuration file (e.g. .htaccess) needs to be adjusted. Please have a look at the setup tab."
+msgstr "Es necesario ajustar el archivo de configuración del servidor (p.ej. .htaccess). Por favor, echa un vistazo a la pestaña de configuración."
+
+#: inc/class-cachify.php:1521
+msgid "HTML + Inline JavaScript"
+msgstr "HTML + JavaScript integrado"
+
+#: inc/class-cachify.php:1520
+msgid "HTML"
+msgstr "HTML"
+
+#: inc/class-cachify.php:1488
+msgid "Memcached"
+msgstr "Memcached"
+
+#: inc/class-cachify.php:1486
+msgid "APC"
+msgstr "APC"
+
+#: inc/class-cachify.php:688
+msgid "Flush site cache"
+msgstr "Vaciar la caché del sitio"
+
+#. translators: %s: cache size
+#: inc/class-cachify.php:604
+msgid "%s Cache"
+msgstr "%s caché"
+
+#: inc/class-cachify.php:602
+msgid "Empty Cache"
+msgstr "Vaciar la caché"
+
+#: inc/cachify.settings-footer.php:15 inc/class-cachify.php:569
+msgid "Support"
+msgstr "Soporte"
+
+#: inc/cachify.settings-footer.php:16 inc/class-cachify.php:568
+msgid "Donate"
+msgstr "Haz una donación"
+
+#: inc/cachify.settings.php:140
+msgid "Add additional details to Cachify signature (HTML comment)"
+msgstr "Añade detalles adicionales a la firma de Cachify (comentario HTML)"
+
+#: inc/cachify.settings.php:136
+msgid "Cache signature"
+msgstr "Firma de la caché"
+
+#: inc/cachify.settings.php:113
+msgid "Browser User Agents"
+msgstr "Agentes de usuario del navegador"
+
+#: inc/cachify.settings.php:112
+msgid "e.g. MSIE 6, Opera"
+msgstr "p.ej. MSIE 6, Opera"
+
+#: inc/cachify.settings.php:106
+msgid "Post/Page IDs"
+msgstr "IDs de la entrada/la página"
+
+#: inc/cachify.settings.php:105
+msgid "e.g. 1, 2, 3"
+msgstr "p.ej. 1, 2, 3"
+
+#: inc/cachify.settings.php:92
+msgid "If selected, the site cache will be flushed, otherwise only the corresponding post is removed from the cache."
+msgstr "Si se selecciona, la caché del sitio se vaciará; de lo contrario, solo la entrada correspondiente se eliminará de la caché."
+
+#: inc/cachify.settings.php:82
+msgid "If selected, the site cache will be flushed, otherwise only the modified post is removed from the cache."
+msgstr "Si se selecciona, la caché del sitio se vaciará; de lo contrario, solo la entrada modificada se eliminará de la caché."
+
+#: inc/cachify.settings.php:79
+msgid "Flush the cache at modified posts"
+msgstr "Vaciar la caché en las entradas modificadas"
+
+#: inc/cachify.settings.php:58
+msgid "Flush cache now"
+msgstr "Vaciar la caché ahora"
+
+#. translators: Placeholder is the trash icon itself as dashicon
+#: inc/cachify.settings.php:46
+msgid "Flush the cache by clicking the button below or the %1$s icon in the admin bar."
+msgstr "Vaciar la caché haciendo clic en el botón de abajo o en el ícono %1$s en la barra de administración."
+
+#: inc/cachify.settings.php:36
+msgid "HDD cache will only expire as you update posts or flush it yourself."
+msgstr "La caché de HDD solo caducará cuando actualices las entradas o la vacías tu mismo."
+
+#: inc/class-cachify-apc.php:149 inc/class-cachify-db.php:201
+#: inc/class-cachify-hdd.php:147 inc/class-cachify-memcached.php:195
+msgid "Generated"
+msgstr "Generado"
+
+#. Plugin URI of the plugin
+msgid "https://cachify.pluginkollektiv.org"
+msgstr "https://cachify.pluginkollektiv.org"
+
+#. Author URI of the plugin
+msgid "https://pluginkollektiv.org"
+msgstr "https://pluginkollektiv.org"
+
+#. Author of the plugin
+msgid "pluginkollektiv"
+msgstr "pluginkollektiv"
+
+#. Description of the plugin
+msgid "Easy to use WordPress caching plugin. Serving static blog pages from database, disk, Memcached or APC."
+msgstr "Fácil de usar el plugin de almacenamiento en caché de WordPress. Sirviendo páginas de blog estáticas desde la base de datos, disco, Memcached o APC."
+
+#: inc/cachify.settings-footer.php:14
+msgid "Manual"
+msgstr "Manual"
+
+#: inc/cachify.settings.php:121
+msgid "Cache minify"
+msgstr "Minimizar la caché"
+
+#: inc/cachify.settings.php:100
+msgid "Cache exceptions"
+msgstr "Excepciones de caché"
+
+#: inc/cachify.settings.php:89
+msgid "Flush the cache at new comments"
+msgstr "Vaciar la caché en los nuevos comentarios"
+
+#: inc/cachify.settings.php:72
+msgid "No cache generation by logged in users"
+msgstr "Ninguna generación de caché por los usuarios conectados"
+
+#: inc/cachify.settings.php:66
+msgid "Cache generation"
+msgstr "Generación de caché"
+
+#: inc/cachify.settings.php:35 inc/cachify.settings.php:39
+msgid "Hours"
+msgstr "Horas"
+
+#: inc/cachify.settings.php:30
+msgid "Cache expiration"
+msgstr "Caducidad de la caché"
+
+#: inc/cachify.settings.php:17
+msgid "Cache method"
+msgstr "Método de caché"
+
+#: inc/class-cachify.php:1519
+msgid "No minify"
+msgstr "Sin minimizar"
+
+#: inc/class-cachify.php:1487
+msgid "Hard disk"
+msgstr "Disco duro"
+
+#: inc/class-cachify.php:1485
+msgid "Database"
+msgstr "Base de datos"
+
+#. Plugin Name of the plugin
+#: inc/class-cachify.php:1463 inc/class-cachify.php:1464
+msgid "Cachify"
+msgstr "Cachify"
+
+#: inc/class-cachify.php:800
+msgid "Cachify cache is flushed."
+msgstr "Caché de cachify vaciada."
+
+#: inc/cachify.settings.php:47 inc/class-cachify.php:694
+msgid "Flush the cachify cache"
+msgstr "Vaciar la caché de cachify"
+
+#: inc/class-cachify.php:619
+msgid "Caching method"
+msgstr "Método de cacheo"
+
+msgid "The IONOS Performance Plugin is now available for free to all customers of our WordPress plans."
+msgstr "El plugin IONOS Performance está ahora disponible de forma gratuita para todos los clientes de nuestros planes de WordPress."
+
+msgid "The plugin shortens the loading time of your website by caching pages that would otherwise have to be dynamically generated by WordPress on every page load. A website’s loading time is a crucial factor for your visitors and successful search engine rankings."
+msgstr "El plugin acorta el tiempo de carga de su sitio web mediante el almacenamiento en caché de las páginas que, de otro modo, tendría que generar dinámicamente WordPress en cada carga de la página. El tiempo de carga de un sitio web no sólo es un factor crucial para sus visitantes, sino también para el éxito de la clasificación en los motores de búsqueda."
+
+msgid "If you want to try caching, select “Enable caching feature” on this page and click “Save changes”."
+msgstr "Si quiere probar el almacenamiento en caché, seleccione “Activar el almacenamiento en caché” en esta página y haga clic en “Guardar cambios”."
+
+msgid "Verify that it works correctly by logging out and viewing your site as a non-logged-in visitor. Caching is only active for non-logged-in users."
+msgstr "Compruebe que funciona correctamente cerrando la sesión y viendo su sitio como un visitante no conectado. El almacenamiento en caché sólo está activo para los usuarios que no han iniciado sesión."
+
+msgid "For example, if you notice problems with contact forms, you can disable caching at any time on this page."
+msgstr "Si observa problemas con los formularios de contacto, por ejemplo, puede desactivar el almacenamiento en caché en cualquier momento en esta página."
+
+msgid "We have installed the new IONOS Performance plugin for you. If you don’t use a caching plugin so far, you can significantly improve the loading time of your website with a few clicks."
+msgstr "Hemos instalado el nuevo plugin IONOS Performance para usted. Si no utilizas un plugin de caché hasta ahora, puedes mejorar significativamente el tiempo de carga de tu sitio web con unos pocos clics."
+
+msgid "Learn more"
+msgstr "Más información"
+
+#: inc/class-cachify.php:543 inc/class-cachify.php:1647
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "Enable caching feature"
+msgstr "Activar el almacenamiento en caché"
+
+msgid "You need to enable pretty permalinks to use the caching feature of IONOS Performance"
+msgstr "Es necesario habilitar los enlaces permanentes bonitos para utilizar la función de caché de IONOS Performance"
+
+msgid "Warning:"
+msgstr "Advertencia:"
+
+msgid "IONOS Performance uses a cache to store HTML content generated by WordPress temporarily. You can use this cache to improve your website’s performance without the need for cumbersome configuration simply by activating this plugin."
+msgstr "IONOS Performance utiliza una caché para almacenar temporalmente el contenido HTML generado por WordPress. Puedes utilizar esta caché para mejorar el rendimiento de tu sitio web sin necesidad de una engorrosa configuración simplemente activando este plugin."
+
+msgid "IONOS Performance is not compatible with other caching plugins."
+msgstr "IONOS Performance no es compatible con otros plugins de caché."
+
+msgid "IONOS Performance has been disabled because it conflicts with another caching plugin."
+msgstr "IONOS Performance se ha desactivado porque entra en conflicto con otro plugin de caché."
+
+# --------------- Disable Warning --------------- #
+msgid "Warning"
+msgstr "Advertencia"
+
+msgid "Disable"
+msgstr "Desactivar"
+
+msgid "You are about to disable an IONOS plugin. This may cause dependency problems to other plugins. Do you really want to do that?"
+msgstr "<p>Está a punto de desactivar IONOS Performance.</p><p>Este plugin mejora el tiempo de carga de su sitio web.</p><div class='notice notice-warning inline'><p>Tras la desactivación, el rendimiento del sitio web no mejorará para sus visitantes.</p></div><p>Si aun así deseas desactivar y eliminar el plugin, no te preocupes, puedes volver a activarlo en cualquier momento desde Plugins › Añadir nuevo.</p>"

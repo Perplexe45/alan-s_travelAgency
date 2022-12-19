@@ -1,0 +1,761 @@
+0000.000 (0) Opened log file at time: Mon, 19 Dec 2022 06:14:15 +0000 on https://lesitedalain.fr
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 8.0.26 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 10.5.17-MariaDB-1:10.5.17+maria~deb11-log (max packet size=67108864) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 104.3M | 106M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 896984.5 MB
+0000.011 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.014 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.068 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1671342245, seconds_ago=88210)
+0000.074 (0) Set semaphore last lock (fd) time to 2022-12-19 06:14:15
+0000.076 (0) Semaphore lock (fd) complete
+0000.083 (0) Backup run: resumption=0, nonce=bf750669448f, file_nonce=bf750669448f begun at=1671430455 (0s ago), job type=backup
+0000.086 (0) Scheduling a resumption (1) after 300 seconds (1671430755) in case this run gets aborted
+0000.656 (0) Checking if we have a zip executable available
+0000.660 (0) Testing: /usr/bin/zip
+0000.676 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.680 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.682 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.685 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.687 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.705 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.707 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.807 (0) Working binary zip found: /usr/bin/zip
+0000.811 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.814 (0) Creation of backups of directories: beginning
+0000.821 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0087.374 (0) Total entities for the zip file: 1816 directories, 9428 files (0 skipped as non-modified), 164.4 MB
+0087.384 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0087.455 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: size is now: 0.40 MB
+0087.462 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 100 files added (on-disk size: 409.4 KB)
+0087.466 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 200 files added (on-disk size: 409.4 KB)
+0087.470 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 300 files added (on-disk size: 409.4 KB)
+0087.474 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 400 files added (on-disk size: 409.4 KB)
+0087.477 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 500 files added (on-disk size: 409.4 KB)
+0087.481 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 600 files added (on-disk size: 409.4 KB)
+0087.485 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 700 files added (on-disk size: 409.4 KB)
+0087.490 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 800 files added (on-disk size: 409.4 KB)
+0087.495 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 900 files added (on-disk size: 409.4 KB)
+0087.499 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 1000 files added (on-disk size: 409.4 KB)
+0087.502 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.2 MB, 9428 files batched, 1001 (1002) added so far); re-opening (prior size: 409.4 KB)
+0119.446 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: size is now: 5.30 MB
+0119.455 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 1100 files added (on-disk size: 5452.7 KB)
+0119.461 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 1200 files added (on-disk size: 5452.7 KB)
+0119.468 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 1300 files added (on-disk size: 5452.7 KB)
+0119.473 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 1400 files added (on-disk size: 5452.7 KB)
+0119.478 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 1500 files added (on-disk size: 5452.7 KB)
+0119.482 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 1600 files added (on-disk size: 5452.7 KB)
+0119.486 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 1700 files added (on-disk size: 5452.7 KB)
+0119.490 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 1800 files added (on-disk size: 5452.7 KB)
+0119.494 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 1900 files added (on-disk size: 5452.7 KB)
+0119.498 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 9428 files batched, 951 (1953) added so far); re-opening (prior size: 5452.7 KB)
+0144.574 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: size is now: 12.40 MB
+0144.582 (0) A useful amount of data was added after this amount of zip processing: 25.4 s (normalised: 25.3 s, rate: 1013.8 KB/s)
+0144.589 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 2000 files added (on-disk size: 12692.1 KB)
+0144.596 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 2100 files added (on-disk size: 12692.1 KB)
+0144.601 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 2200 files added (on-disk size: 12692.1 KB)
+0144.606 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 2300 files added (on-disk size: 12692.1 KB)
+0144.611 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 2400 files added (on-disk size: 12692.1 KB)
+0144.616 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 2500 files added (on-disk size: 12692.1 KB)
+0144.620 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 2600 files added (on-disk size: 12692.1 KB)
+0144.623 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 2700 files added (on-disk size: 12692.1 KB)
+0144.627 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 2800 files added (on-disk size: 12692.1 KB)
+0144.630 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 2900 files added (on-disk size: 12692.1 KB)
+0144.633 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.7 MB, 9428 files batched, 1001 (2954) added so far); re-opening (prior size: 12692.1 KB)
+0175.004 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 3000 files added (on-disk size: 15045.9 KB)
+0175.012 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 3100 files added (on-disk size: 15045.9 KB)
+0175.031 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 3200 files added (on-disk size: 15045.9 KB)
+0175.069 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 3300 files added (on-disk size: 15045.9 KB)
+0175.088 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 3400 files added (on-disk size: 15045.9 KB)
+0175.094 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 3500 files added (on-disk size: 15045.9 KB)
+0175.099 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 3600 files added (on-disk size: 15045.9 KB)
+0175.103 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 3700 files added (on-disk size: 15045.9 KB)
+0175.107 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 3800 files added (on-disk size: 15045.9 KB)
+0175.111 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 3900 files added (on-disk size: 15045.9 KB)
+0175.114 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.7 MB, 9428 files batched, 1001 (3955) added so far); re-opening (prior size: 15045.9 KB)
+0221.321 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: size is now: 18.30 MB
+0221.377 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 4000 files added (on-disk size: 18706.9 KB)
+0221.383 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 4100 files added (on-disk size: 18706.9 KB)
+0221.388 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 4200 files added (on-disk size: 18706.9 KB)
+0221.392 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 4300 files added (on-disk size: 18706.9 KB)
+0221.396 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 4400 files added (on-disk size: 18706.9 KB)
+0221.400 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 4500 files added (on-disk size: 18706.9 KB)
+0221.404 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 4600 files added (on-disk size: 18706.9 KB)
+0221.410 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 4700 files added (on-disk size: 18706.9 KB)
+0221.414 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 4800 files added (on-disk size: 18706.9 KB)
+0221.420 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 4900 files added (on-disk size: 18706.9 KB)
+0221.424 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.7 MB, 9428 files batched, 1001 (4956) added so far); re-opening (prior size: 18706.9 KB)
+0253.008 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 5000 files added (on-disk size: 21061.2 KB)
+0253.012 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 5100 files added (on-disk size: 21061.2 KB)
+0253.018 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 5200 files added (on-disk size: 21061.2 KB)
+0253.024 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 5300 files added (on-disk size: 21061.2 KB)
+0253.031 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 5400 files added (on-disk size: 21061.2 KB)
+0253.039 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 5500 files added (on-disk size: 21061.2 KB)
+0253.044 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 5600 files added (on-disk size: 21061.2 KB)
+0253.050 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 5700 files added (on-disk size: 21061.2 KB)
+0253.057 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 5800 files added (on-disk size: 21061.2 KB)
+0253.066 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 5900 files added (on-disk size: 21061.2 KB)
+0253.070 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.9 MB, 9428 files batched, 1001 (5957) added so far); re-opening (prior size: 21061.2 KB)
+0270.181 (0) The time we have been running (270.2) is approaching the resumption interval (300) - increasing resumption interval to 301
+0276.240 (0) The time we have been running (276.2) is approaching the resumption interval (301) - increasing resumption interval to 307
+0282.257 (0) The time we have been running (282.2) is approaching the resumption interval (307) - increasing resumption interval to 313
+0288.277 (0) The time we have been running (288.3) is approaching the resumption interval (313) - increasing resumption interval to 319
+0293.670 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: size is now: 27.60 MB
+0293.680 (0) The time we have been running (293.7) is approaching the resumption interval (319) - increasing resumption interval to 324
+0293.685 (0) The scheduled resumption is within 45 seconds - will reschedule
+0293.690 (0) Rescheduling resumption 1: moving to 369 seconds from now (1671431118)
+0293.699 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 324 + 45 = 369
+0293.702 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 6000 files added (on-disk size: 28290.6 KB)
+0293.707 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 6100 files added (on-disk size: 28290.6 KB)
+0293.711 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 6200 files added (on-disk size: 28290.6 KB)
+0293.715 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 6300 files added (on-disk size: 28290.6 KB)
+0293.719 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 6400 files added (on-disk size: 28290.6 KB)
+0293.722 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 6500 files added (on-disk size: 28290.6 KB)
+0293.727 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 6600 files added (on-disk size: 28290.6 KB)
+0293.731 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 6700 files added (on-disk size: 28290.6 KB)
+0293.735 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 6800 files added (on-disk size: 28290.6 KB)
+0293.740 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 6900 files added (on-disk size: 28290.6 KB)
+0293.743 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.1 MB, 9428 files batched, 1001 (6958) added so far); re-opening (prior size: 28290.6 KB)
+0341.285 (0) The time we have been running (341.3) is approaching the resumption interval (369) - increasing resumption interval to 372
+0344.504 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: size is now: 33.40 MB
+0344.515 (0) The time we have been running (344.5) is approaching the resumption interval (372) - increasing resumption interval to 375
+0344.521 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 7000 files added (on-disk size: 34197.1 KB)
+0344.526 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 7100 files added (on-disk size: 34197.1 KB)
+0344.530 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 7200 files added (on-disk size: 34197.1 KB)
+0344.534 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 7300 files added (on-disk size: 34197.1 KB)
+0344.542 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 7400 files added (on-disk size: 34197.1 KB)
+0344.546 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 7500 files added (on-disk size: 34197.1 KB)
+0344.553 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 7600 files added (on-disk size: 34197.1 KB)
+0344.558 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 7700 files added (on-disk size: 34197.1 KB)
+0344.562 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 7800 files added (on-disk size: 34197.1 KB)
+0344.565 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 7900 files added (on-disk size: 34197.1 KB)
+0344.568 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.3 MB, 9428 files batched, 1001 (7959) added so far); re-opening (prior size: 34197.1 KB)
+0350.283 (0) The time we have been running (350.3) is approaching the resumption interval (375) - increasing resumption interval to 381
+0356.245 (0) The time we have been running (356.2) is approaching the resumption interval (381) - increasing resumption interval to 387
+0362.184 (0) The time we have been running (362.2) is approaching the resumption interval (387) - increasing resumption interval to 393
+0368.469 (0) The time we have been running (368.5) is approaching the resumption interval (393) - increasing resumption interval to 399
+0374.810 (0) The time we have been running (374.8) is approaching the resumption interval (399) - increasing resumption interval to 405
+0380.184 (0) The time we have been running (380.2) is approaching the resumption interval (405) - increasing resumption interval to 411
+0386.180 (0) The time we have been running (386.2) is approaching the resumption interval (411) - increasing resumption interval to 417
+0392.176 (0) The time we have been running (392.2) is approaching the resumption interval (417) - increasing resumption interval to 423
+0392.331 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: size is now: 40.30 MB
+0392.341 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 8000 files added (on-disk size: 41284.2 KB)
+0392.347 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 8100 files added (on-disk size: 41284.2 KB)
+0392.351 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 8200 files added (on-disk size: 41284.2 KB)
+0392.355 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 8300 files added (on-disk size: 41284.2 KB)
+0392.359 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 8400 files added (on-disk size: 41284.2 KB)
+0392.363 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 8500 files added (on-disk size: 41284.2 KB)
+0392.369 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 8600 files added (on-disk size: 41284.2 KB)
+0392.372 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 8700 files added (on-disk size: 41284.2 KB)
+0392.377 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 8800 files added (on-disk size: 41284.2 KB)
+0392.381 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 8900 files added (on-disk size: 41284.2 KB)
+0392.384 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.4 MB, 9428 files batched, 1001 (8960) added so far); re-opening (prior size: 41284.2 KB)
+0399.079 (0) The time we have been running (398.9) is approaching the resumption interval (423) - increasing resumption interval to 429
+0404.263 (0) The time we have been running (404.3) is approaching the resumption interval (429) - increasing resumption interval to 435
+0410.198 (0) The time we have been running (410.2) is approaching the resumption interval (435) - increasing resumption interval to 441
+0416.218 (0) The time we have been running (416.2) is approaching the resumption interval (441) - increasing resumption interval to 447
+0422.200 (0) The time we have been running (422.2) is approaching the resumption interval (447) - increasing resumption interval to 453
+0428.587 (0) The time we have been running (428.5) is approaching the resumption interval (453) - increasing resumption interval to 459
+0434.187 (0) The time we have been running (434.2) is approaching the resumption interval (459) - increasing resumption interval to 465
+0436.863 (0) The time we have been running (436.9) is approaching the resumption interval (465) - increasing resumption interval to 467
+0436.869 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 9000 files added (on-disk size: 47265.9 KB)
+0436.876 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 9100 files added (on-disk size: 47265.9 KB)
+0436.882 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 9200 files added (on-disk size: 47265.9 KB)
+0436.888 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 9300 files added (on-disk size: 47265.9 KB)
+0436.892 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.tmp: 9400 files added (on-disk size: 47265.9 KB)
+0442.255 (0) The time we have been running (442.2) is approaching the resumption interval (467) - increasing resumption interval to 473
+0448.423 (0) The time we have been running (448.4) is approaching the resumption interval (473) - increasing resumption interval to 479
+0454.234 (0) The time we have been running (454.2) is approaching the resumption interval (479) - increasing resumption interval to 485
+0454.827 (0) Creating zip file manifest (backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.list-temp.tmp)
+0454.881 (0) Successfully created zip file manifest (size: 760952)
+0455.359 (0) Created plugins zip (0) - 51065.7 KB in 454.5 s (112.4 KB/s) (sha1: 48538667af9748e46c71fa85d96ae133b52203da, sha256: 22764744db37b7e70f31cb39d7a0b38d318da5f99d524909c5c5dc30e4f8031b)
+0455.372 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0455.374 (0) No remote despatch: user chose no remote backup service
+0455.377 (0) Recording as successfully uploaded: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip
+0455.382 (0) Deleting zip manifest (backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip.list.tmp)
+0455.387 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0455.390 (0) Number of backup sets in history: 1; groups (db): 1
+0455.392 (0) Examining (for databases) backup set with group_id=0, nonce=c399b4ca323c, datestamp=1671342245 (Dec 18 2022 05:44:05)
+0455.395 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0455.397 (0) Number of backup sets in history: 1; groups (files): 1
+0455.400 (0) Examining (for files) backup set with nonce=c399b4ca323c, datestamp=1671342245 (Dec 18 2022 05:44:05)
+0455.400 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0455.402 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0455.413 (0) Beginning creation of dump of themes (split every: 400 MB)
+0469.427 (0) Total entities for the zip file: 261 directories, 1493 files (0 skipped as non-modified), 44 MB
+0469.442 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0469.470 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: size is now: 0.10 MB
+0469.482 (0) The time we have been running (469.5) is approaching the resumption interval (485) - increasing resumption interval to 500
+0469.490 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 100 files added (on-disk size: 53.7 KB)
+0469.497 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 200 files added (on-disk size: 53.7 KB)
+0469.502 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 300 files added (on-disk size: 53.7 KB)
+0469.507 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 400 files added (on-disk size: 53.7 KB)
+0469.512 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 500 files added (on-disk size: 53.7 KB)
+0469.516 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 600 files added (on-disk size: 53.7 KB)
+0469.520 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 700 files added (on-disk size: 53.7 KB)
+0469.524 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.3 MB, 1493 files batched, 795 (796) added so far); re-opening (prior size: 53.7 KB)
+0475.273 (0) The time we have been running (475.3) is approaching the resumption interval (500) - increasing resumption interval to 506
+0481.316 (0) The time we have been running (481.3) is approaching the resumption interval (506) - increasing resumption interval to 512
+0487.578 (0) The time we have been running (487.6) is approaching the resumption interval (512) - increasing resumption interval to 518
+0493.385 (0) The time we have been running (493.4) is approaching the resumption interval (518) - increasing resumption interval to 524
+0499.187 (0) The time we have been running (499.2) is approaching the resumption interval (524) - increasing resumption interval to 530
+0505.255 (0) The time we have been running (505.2) is approaching the resumption interval (530) - increasing resumption interval to 536
+0508.268 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: size is now: 17.80 MB
+0508.284 (0) The time we have been running (508.3) is approaching the resumption interval (536) - increasing resumption interval to 539
+0508.292 (0) A useful amount of data was added after this amount of zip processing: 39.1 s (normalised: 38.7 s, rate: 662 KB/s)
+0508.298 (0) Performance is good - will increase the amount of data we attempt to batch (time=39.125565052032, normalised_time=38.669716618768, max_time=508.29456400871, data points known=1, old_max_bytes=26214400, new_max_bytes=206745301)
+0508.303 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 800 files added (on-disk size: 18210.1 KB)
+0508.307 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 900 files added (on-disk size: 18210.1 KB)
+0508.314 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 1000 files added (on-disk size: 18210.1 KB)
+0508.320 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 1100 files added (on-disk size: 18210.1 KB)
+0508.327 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 1200 files added (on-disk size: 18210.1 KB)
+0508.334 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 1300 files added (on-disk size: 18210.1 KB)
+0508.339 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: 1400 files added (on-disk size: 18210.1 KB)
+0515.723 (0) The time we have been running (515.7) is approaching the resumption interval (539) - increasing resumption interval to 546
+0521.182 (0) The time we have been running (521.2) is approaching the resumption interval (546) - increasing resumption interval to 552
+0527.964 (0) The time we have been running (528) is approaching the resumption interval (552) - increasing resumption interval to 558
+0533.180 (0) The time we have been running (533.2) is approaching the resumption interval (558) - increasing resumption interval to 564
+0535.450 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.tmp: size is now: 24.30 MB
+0535.463 (0) The time we have been running (535.5) is approaching the resumption interval (564) - increasing resumption interval to 566
+0535.489 (0) Creating zip file manifest (backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.list-temp.tmp)
+0535.499 (0) Successfully created zip file manifest (size: 105725)
+0535.738 (0) Created themes zip (0) - 24902.6 KB in 80.3 s (310 KB/s) (sha1: 00b185a9968b895b86f29f633565463e07d8c8a0, sha256: dfa037e87f802d7129a00787162dcf23af14b052c7ea5002eb63779de9b519d8)
+0535.754 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0535.757 (0) No remote despatch: user chose no remote backup service
+0535.760 (0) Recording as successfully uploaded: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip
+0535.765 (0) Deleting zip manifest (backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip.list.tmp)
+0535.770 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0535.774 (0) Number of backup sets in history: 1; groups (db): 1
+0535.777 (0) Examining (for databases) backup set with group_id=0, nonce=c399b4ca323c, datestamp=1671342245 (Dec 18 2022 05:44:05)
+0535.783 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0535.786 (0) Number of backup sets in history: 1; groups (files): 1
+0535.792 (0) Examining (for files) backup set with nonce=c399b4ca323c, datestamp=1671342245 (Dec 18 2022 05:44:05)
+0535.792 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0535.797 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0535.823 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0535.826 (0) Looking for candidates to backup in: /homepages/38/d900719224/htdocs/clickandbuilds/alanstravelAgency/wp-content/uploads
+0535.829 (0) finding files: 2022: adding to list (1)
+0535.832 (0) finding files: oceanwp: adding to list (2)
+0535.835 (0) finding files: astra-sites: adding to list (3)
+0535.838 (0) finding files: wpforms: adding to list (4)
+0535.841 (0) finding files: 2021: adding to list (5)
+0535.845 (0) finding files: elementor: adding to list (6)
+0535.847 (0) finding files: happyaddons: adding to list (7)
+0535.851 (0) finding files: ultimatemember: adding to list (8)
+0535.854 (0) finding files: mailchimp-for-wp: adding to list (9)
+0535.858 (0) finding files: forminator: adding to list (10)
+0535.860 (0) finding files: evf-logs: adding to list (11)
+0535.863 (0) finding files: cwis: adding to list (12)
+0535.868 (0) finding files: index.php: adding to list (13)
+0535.872 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0538.777 (0) Total entities for the zip file: 22 directories, 328 files (0 skipped as non-modified), 30.8 MB
+0538.780 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0538.811 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-uploads.zip.tmp: size is now: 0.00 MB
+0538.837 (0) The time we have been running (538.8) is approaching the resumption interval (566) - increasing resumption interval to 569
+0538.849 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-uploads.zip.tmp: 100 files added (on-disk size: 19.8 KB)
+0538.855 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-uploads.zip.tmp: 200 files added (on-disk size: 19.8 KB)
+0538.864 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-uploads.zip.tmp: 300 files added (on-disk size: 19.8 KB)
+0544.209 (0) The time we have been running (544.2) is approaching the resumption interval (569) - increasing resumption interval to 575
+0550.287 (0) The time we have been running (550.3) is approaching the resumption interval (575) - increasing resumption interval to 581
+0556.289 (0) The time we have been running (556.3) is approaching the resumption interval (581) - increasing resumption interval to 587
+0558.081 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-uploads.zip.tmp: size is now: 29.00 MB
+0558.092 (0) The time we have been running (558.1) is approaching the resumption interval (587) - increasing resumption interval to 589
+0558.106 (0) Creating zip file manifest (backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-uploads.zip.list-temp.tmp)
+0558.112 (0) Successfully created zip file manifest (size: 17077)
+0558.383 (0) Created uploads zip (0) - 29651.4 KB in 22.5 s (1317.6 KB/s) (sha1: 1c3c248821b8abd284eb878f118d822e3a966ca3, sha256: 24ee5d16b9d38c8f4581b4cc31aff6725a7c2bc63dea31611c3d063ddb228e5f)
+0558.390 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0558.392 (0) No remote despatch: user chose no remote backup service
+0558.394 (0) Recording as successfully uploaded: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-uploads.zip
+0558.399 (0) Deleting zip manifest (backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-uploads.zip.list.tmp)
+0558.406 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0558.410 (0) Number of backup sets in history: 1; groups (db): 1
+0558.413 (0) Examining (for databases) backup set with group_id=0, nonce=c399b4ca323c, datestamp=1671342245 (Dec 18 2022 05:44:05)
+0558.416 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0558.418 (0) Number of backup sets in history: 1; groups (files): 1
+0558.420 (0) Examining (for files) backup set with nonce=c399b4ca323c, datestamp=1671342245 (Dec 18 2022 05:44:05)
+0558.420 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0558.423 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0558.438 (0) Beginning backup of other directories found in the content directory (index: 0)
+0558.441 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0558.444 (0) Looking for candidates to backup in: /homepages/38/d900719224/htdocs/clickandbuilds/alanstravelAgency/wp-content
+0558.447 (0) finding files: index.php: adding to list (1)
+0558.449 (0) finding files: plugins: skipping: this is the plugins directory
+0558.452 (0) finding files: themes: skipping: this is the themes directory
+0558.455 (0) finding files: php.ini: adding to list (2)
+0558.458 (0) finding files: mu-plugins: adding to list (3)
+0558.461 (0) finding files: uploads: skipping: this is the uploads directory
+0558.465 (0) finding files: upgrade: skipping: excluded by options
+0558.468 (0) finding files: languages: adding to list (4)
+0558.471 (0) finding files: ngg: adding to list (5)
+0558.475 (0) finding files: gallery: adding to list (6)
+0558.478 (0) finding files: cache: skipping: excluded by options
+0558.481 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0558.484 (0) finding files: updraft: skipping: this is the updraft directory
+0558.488 (0) finding files: wflogs: adding to list (7)
+0560.637 (0) Total entities for the zip file: 7 directories, 660 files (0 skipped as non-modified), 22.5 MB
+0560.644 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0560.651 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0560.657 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0560.661 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0560.665 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0560.671 (0) Zip: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0566.215 (0) The time we have been running (566.2) is approaching the resumption interval (589) - increasing resumption interval to 597
+0572.226 (0) The time we have been running (572.2) is approaching the resumption interval (597) - increasing resumption interval to 603
+0578.180 (0) The time we have been running (578.2) is approaching the resumption interval (603) - increasing resumption interval to 609
+0584.177 (0) The time we have been running (584.2) is approaching the resumption interval (609) - increasing resumption interval to 615
+0586.443 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-others.zip.tmp: size is now: 7.70 MB
+0586.456 (0) The time we have been running (586.4) is approaching the resumption interval (615) - increasing resumption interval to 617
+0586.469 (0) Creating zip file manifest (backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-others.zip.list-temp.tmp)
+0586.475 (0) Successfully created zip file manifest (size: 48211)
+0586.554 (0) Created others zip (0) - 7840.3 KB in 28.1 s (279.4 KB/s) (sha1: 6c7b596b5fa11e7e7127426112a7f7fe8b370c3d, sha256: aae597fa23d8cb827a676b2015c434839f60c9f58d1ea8a17359a9ba43273e6f)
+0586.563 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0586.566 (0) No remote despatch: user chose no remote backup service
+0586.568 (0) Recording as successfully uploaded: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-others.zip
+0586.573 (0) Deleting zip manifest (backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-others.zip.list.tmp)
+0586.580 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0586.585 (0) Number of backup sets in history: 1; groups (db): 1
+0586.588 (0) Examining (for databases) backup set with group_id=0, nonce=c399b4ca323c, datestamp=1671342245 (Dec 18 2022 05:44:05)
+0586.592 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0586.594 (0) Number of backup sets in history: 1; groups (files): 1
+0586.597 (0) Examining (for files) backup set with nonce=c399b4ca323c, datestamp=1671342245 (Dec 18 2022 05:44:05)
+0586.597 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0586.599 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0586.615 (0) Saving backup status to database (elements: 8)
+0586.620 (0) Beginning creation of database dump (WordPress DB)
+0586.622 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0586.636 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0586.693 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `tlaVSxnxoptions`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */ (truncated - 1570 bytes total)
+0586.696 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0586.755 (0) Table tlaVSxnxoptions: Total expected rows (via COUNT): 575
+0586.942 (0) Table tlaVSxnxoptions: Rows added in this batch (next record: 9761): 571 (uncompressed bytes in this segment=7085981) in 0.20 seconds
+0586.954 (0) Table tlaVSxnxoptions: finishing file(s) (2, 699 KB)
+0586.962 (0) Table tlaVSxnxusers: Total expected rows (via COUNT): 3
+0586.965 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0586.971 (0) Table tlaVSxnxusers: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=1697) in 0.01 seconds
+0586.980 (0) Table tlaVSxnxusers: finishing file(s) (2, 0.7 KB)
+0586.994 (0) Table tlaVSxnxusermeta: Total expected rows (via COUNT): 133
+0586.997 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0587.005 (0) Table tlaVSxnxusermeta: Rows added in this batch (next record: 188): 133 (uncompressed bytes in this segment=39354) in 0.02 seconds
+0587.015 (0) The time we have been running (587) is approaching the resumption interval (617) - increasing resumption interval to 618
+0587.023 (0) Table tlaVSxnxusermeta: finishing file(s) (2, 8.2 KB)
+0587.037 (0) Table tlaVSxnxcommentmeta: Total expected rows (via COUNT): 0
+0587.044 (0) Table tlaVSxnxcommentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=726) in 0.01 seconds
+0587.054 (0) Table tlaVSxnxcommentmeta: finishing file(s) (2, 0.4 KB)
+0587.062 (0) Table tlaVSxnxcomments: Total expected rows (via COUNT): 1
+0587.065 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0587.070 (0) Table tlaVSxnxcomments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2284) in 0.01 seconds
+0587.076 (0) Table tlaVSxnxcomments: finishing file(s) (2, 0.8 KB)
+0587.084 (0) Table tlaVSxnxlinks: Total expected rows (via COUNT): 0
+0587.088 (0) Table tlaVSxnxlinks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1336) in 0.01 seconds
+0587.095 (0) Table tlaVSxnxlinks: finishing file(s) (2, 0.5 KB)
+0587.129 (0) Table tlaVSxnxpostmeta: Total expected rows (approximate): 7712
+0587.400 (0) Table tlaVSxnxpostmeta: Rows added in this batch (next record: 11042): 8289 (uncompressed bytes in this segment=14280104) in 0.30 seconds
+0587.415 (0) Table tlaVSxnxpostmeta: finishing file(s) (2, 382.1 KB)
+0587.439 (0) Table tlaVSxnxposts: Total expected rows (via COUNT): 1256
+0587.539 (0) Table tlaVSxnxposts: Rows added in this batch (next record: 1783): 1256 (uncompressed bytes in this segment=4586735) in 0.12 seconds
+0587.551 (0) Table tlaVSxnxposts: finishing file(s) (2, 152.5 KB)
+0587.556 (0) Table tlaVSxnxterm_relationships: Total expected rows (approximate): 113
+0587.564 (0) Table tlaVSxnxterm_relationships: Rows added in this batch (next record: 100000): 117 (uncompressed bytes in this segment=2390) in 0.01 seconds
+0587.574 (0) Table tlaVSxnxterm_relationships: finishing file(s) (2, 0.7 KB)
+0587.586 (0) Table tlaVSxnxterm_taxonomy: Total expected rows (via COUNT): 18
+0587.589 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0587.595 (0) Table tlaVSxnxterm_taxonomy: Rows added in this batch (next record: 22): 18 (uncompressed bytes in this segment=1953) in 0.01 seconds
+0587.608 (0) Table tlaVSxnxterm_taxonomy: finishing file(s) (2, 0.7 KB)
+0587.622 (0) Table tlaVSxnxtermmeta: Total expected rows (via COUNT): 1
+0587.625 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0587.628 (0) Table tlaVSxnxtermmeta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=798) in 0.01 seconds
+0587.639 (0) Table tlaVSxnxtermmeta: finishing file(s) (2, 0.4 KB)
+0587.648 (0) Table tlaVSxnxterms: Total expected rows (via COUNT): 18
+0587.650 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0587.653 (0) Table tlaVSxnxterms: Rows added in this batch (next record: 22): 18 (uncompressed bytes in this segment=1514) in 0.01 seconds
+0587.662 (0) Table tlaVSxnxterms: finishing file(s) (2, 0.7 KB)
+0587.674 (0) Table tlaVSxnxactionscheduler_actions: Total expected rows (via COUNT): 29
+0587.676 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0587.682 (0) Table tlaVSxnxactionscheduler_actions: Rows added in this batch (next record: 57): 29 (uncompressed bytes in this segment=11180) in 0.01 seconds
+0587.692 (0) Table tlaVSxnxactionscheduler_actions: finishing file(s) (2, 1.6 KB)
+0587.698 (0) Table tlaVSxnxactionscheduler_claims: Total expected rows (via COUNT): 0
+0587.703 (0) Table tlaVSxnxactionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=655) in 0.01 seconds
+0587.710 (0) Table tlaVSxnxactionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0587.718 (0) Table tlaVSxnxactionscheduler_groups: Total expected rows (via COUNT): 2
+0587.720 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0587.725 (0) Table tlaVSxnxactionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=741) in 0.01 seconds
+0587.734 (0) Table tlaVSxnxactionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0587.745 (0) Table tlaVSxnxactionscheduler_logs: Total expected rows (via COUNT): 83
+0587.747 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0587.755 (0) Table tlaVSxnxactionscheduler_logs: Rows added in this batch (next record: 91): 83 (uncompressed bytes in this segment=7791) in 0.01 seconds
+0587.766 (0) Table tlaVSxnxactionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0587.777 (0) Table tlaVSxnxe_events: Total expected rows (via COUNT): 1
+0587.780 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0587.786 (0) Table tlaVSxnxe_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=839) in 0.01 seconds
+0587.794 (0) Table tlaVSxnxe_events: finishing file(s) (2, 0.5 KB)
+0587.810 (0) Table tlaVSxnxevf_entries: Total expected rows (via COUNT): 0
+0587.816 (0) Table tlaVSxnxevf_entries: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1059) in 0.01 seconds
+0587.829 (0) Table tlaVSxnxevf_entries: finishing file(s) (2, 0.5 KB)
+0587.846 (0) Table tlaVSxnxevf_entrymeta: Total expected rows (via COUNT): 0
+0587.856 (0) Table tlaVSxnxevf_entrymeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.02 seconds
+0587.869 (0) Table tlaVSxnxevf_entrymeta: finishing file(s) (2, 0.4 KB)
+0587.881 (0) Table tlaVSxnxevf_sessions: Total expected rows (via COUNT): 0
+0587.887 (0) Table tlaVSxnxevf_sessions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=699) in 0.01 seconds
+0587.900 (0) Table tlaVSxnxevf_sessions: finishing file(s) (2, 0.4 KB)
+0587.918 (0) Table tlaVSxnxfrm_fields: Total expected rows (via COUNT): 17
+0587.922 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0587.930 (0) Table tlaVSxnxfrm_fields: Rows added in this batch (next record: 25): 17 (uncompressed bytes in this segment=18302) in 0.02 seconds
+0587.941 (0) Table tlaVSxnxfrm_fields: finishing file(s) (2, 2 KB)
+0587.958 (0) Table tlaVSxnxfrm_forms: Total expected rows (via COUNT): 4
+0587.961 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0587.964 (0) Table tlaVSxnxfrm_forms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=6811) in 0.02 seconds
+0587.974 (0) Table tlaVSxnxfrm_forms: finishing file(s) (2, 1.5 KB)
+0587.985 (0) Table tlaVSxnxfrm_item_metas: Total expected rows (via COUNT): 0
+0587.990 (0) Table tlaVSxnxfrm_item_metas: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.01 seconds
+0587.999 (0) Table tlaVSxnxfrm_item_metas: finishing file(s) (2, 0.4 KB)
+0588.007 (0) Table tlaVSxnxfrm_items: Total expected rows (via COUNT): 0
+0588.010 (0) Table tlaVSxnxfrm_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1153) in 0.01 seconds
+0588.020 (0) The time we have been running (588) is approaching the resumption interval (618) - increasing resumption interval to 619
+0588.033 (0) Table tlaVSxnxfrm_items: finishing file(s) (2, 0.5 KB)
+0588.042 (0) Table tlaVSxnxfrmt_form_entry: Total expected rows (via COUNT): 29
+0588.051 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.058 (0) Table tlaVSxnxfrmt_form_entry: Rows added in this batch (next record: 29): 29 (uncompressed bytes in this segment=2676) in 0.02 seconds
+0588.069 (0) Table tlaVSxnxfrmt_form_entry: finishing file(s) (2, 0.8 KB)
+0588.082 (0) Table tlaVSxnxfrmt_form_entry_meta: Total expected rows (via COUNT): 58
+0588.084 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.092 (0) Table tlaVSxnxfrmt_form_entry_meta: Rows added in this batch (next record: 58): 58 (uncompressed bytes in this segment=5936) in 0.02 seconds
+0588.103 (0) Table tlaVSxnxfrmt_form_entry_meta: finishing file(s) (2, 1.1 KB)
+0588.114 (0) Table tlaVSxnxfrmt_form_reports: Total expected rows (via COUNT): 1
+0588.117 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.123 (0) Table tlaVSxnxfrmt_form_reports: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1417) in 0.01 seconds
+0588.134 (0) Table tlaVSxnxfrmt_form_reports: finishing file(s) (2, 0.7 KB)
+0588.144 (0) Table tlaVSxnxfrmt_form_views: Total expected rows (via COUNT): 12
+0588.147 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.151 (0) Table tlaVSxnxfrmt_form_views: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=1893) in 0.01 seconds
+0588.160 (0) Table tlaVSxnxfrmt_form_views: finishing file(s) (2, 0.7 KB)
+0588.168 (0) Table tlaVSxnxmclean_refs: Total expected rows (via COUNT): 19
+0588.170 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.175 (0) Table tlaVSxnxmclean_refs: Rows added in this batch (next record: 19): 19 (uncompressed bytes in this segment=1894) in 0.01 seconds
+0588.184 (0) Table tlaVSxnxmclean_refs: finishing file(s) (2, 0.6 KB)
+0588.196 (0) Table tlaVSxnxmclean_scan: Total expected rows (via COUNT): 36
+0588.199 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.205 (0) Table tlaVSxnxmclean_scan: Rows added in this batch (next record: 73): 36 (uncompressed bytes in this segment=4617) in 0.01 seconds
+0588.213 (0) Table tlaVSxnxmclean_scan: finishing file(s) (2, 1.2 KB)
+0588.225 (0) Table tlaVSxnxnf3_action_meta: Total expected rows (via COUNT): 168
+0588.228 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.235 (0) Table tlaVSxnxnf3_action_meta: Rows added in this batch (next record: 274): 168 (uncompressed bytes in this segment=13433) in 0.02 seconds
+0588.247 (0) Table tlaVSxnxnf3_action_meta: finishing file(s) (2, 2.3 KB)
+0588.259 (0) Table tlaVSxnxnf3_actions: Total expected rows (via COUNT): 7
+0588.263 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.271 (0) Table tlaVSxnxnf3_actions: Rows added in this batch (next record: 11): 7 (uncompressed bytes in this segment=1426) in 0.02 seconds
+0588.284 (0) Table tlaVSxnxnf3_actions: finishing file(s) (2, 0.6 KB)
+0588.297 (0) Table tlaVSxnxnf3_chunks: Total expected rows (via COUNT): 0
+0588.304 (0) Table tlaVSxnxnf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=474) in 0.01 seconds
+0588.314 (0) Table tlaVSxnxnf3_chunks: finishing file(s) (2, 0.3 KB)
+0588.330 (0) Table tlaVSxnxnf3_field_meta: Total expected rows (via COUNT): 488
+0588.332 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.343 (0) Table tlaVSxnxnf3_field_meta: Rows added in this batch (next record: 779): 488 (uncompressed bytes in this segment=43679) in 0.02 seconds
+0588.354 (0) Table tlaVSxnxnf3_field_meta: finishing file(s) (2, 5.5 KB)
+0588.366 (0) Table tlaVSxnxnf3_fields: Total expected rows (via COUNT): 13
+0588.369 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.384 (0) Table tlaVSxnxnf3_fields: Rows added in this batch (next record: 18): 13 (uncompressed bytes in this segment=3242) in 0.02 seconds
+0588.395 (0) Table tlaVSxnxnf3_fields: finishing file(s) (2, 1 KB)
+0588.415 (0) Table tlaVSxnxnf3_form_meta: Total expected rows (via COUNT): 148
+0588.418 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.424 (0) Table tlaVSxnxnf3_form_meta: Rows added in this batch (next record: 247): 148 (uncompressed bytes in this segment=11756) in 0.02 seconds
+0588.435 (0) Table tlaVSxnxnf3_form_meta: finishing file(s) (2, 2.3 KB)
+0588.444 (0) Table tlaVSxnxnf3_forms: Total expected rows (via COUNT): 2
+0588.446 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.452 (0) Table tlaVSxnxnf3_forms: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0588.463 (0) Table tlaVSxnxnf3_forms: finishing file(s) (2, 0.6 KB)
+0588.476 (0) Table tlaVSxnxnf3_object_meta: Total expected rows (via COUNT): 0
+0588.480 (0) Table tlaVSxnxnf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=601) in 0.01 seconds
+0588.490 (0) Table tlaVSxnxnf3_object_meta: finishing file(s) (2, 0.3 KB)
+0588.501 (0) Table tlaVSxnxnf3_objects: Total expected rows (via COUNT): 0
+0588.505 (0) Table tlaVSxnxnf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=647) in 0.01 seconds
+0588.515 (0) Table tlaVSxnxnf3_objects: finishing file(s) (2, 0.4 KB)
+0588.525 (0) Table tlaVSxnxnf3_relationships: Total expected rows (via COUNT): 0
+0588.527 (0) Table tlaVSxnxnf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=710) in 0.01 seconds
+0588.536 (0) Table tlaVSxnxnf3_relationships: finishing file(s) (2, 0.4 KB)
+0588.549 (0) Table tlaVSxnxnf3_upgrades: Total expected rows (via COUNT): 2
+0588.554 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.563 (0) Table tlaVSxnxnf3_upgrades: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=36267) in 0.02 seconds
+0588.576 (0) Table tlaVSxnxnf3_upgrades: finishing file(s) (2, 4.8 KB)
+0588.588 (0) Table tlaVSxnxum_metadata: Total expected rows (via COUNT): 0
+0588.594 (0) Table tlaVSxnxum_metadata: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.01 seconds
+0588.605 (0) Table tlaVSxnxum_metadata: finishing file(s) (2, 0.4 KB)
+0588.613 (0) Table tlaVSxnxwfblockediplog: Total expected rows (approximate): 81
+0588.617 (0) Table tlaVSxnxwfblockediplog: Rows added in this batch (next record: 1000): 81 (uncompressed bytes in this segment=5886) in 0.01 seconds
+0588.626 (0) Table tlaVSxnxwfblockediplog: finishing file(s) (2, 1.1 KB)
+0588.634 (0) Table tlaVSxnxwfblocks7: Total expected rows (via COUNT): 19
+0588.637 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0588.643 (0) Table tlaVSxnxwfblocks7: Rows added in this batch (next record: 85): 19 (uncompressed bytes in this segment=3412) in 0.01 seconds
+0588.652 (0) Table tlaVSxnxwfblocks7: finishing file(s) (2, 1 KB)
+0588.660 (0) Table tlaVSxnxwfconfig: Total expected rows (approximate): 260
+0588.907 (0) Table tlaVSxnxwfconfig: Rows added in this batch (next record: 1000): 262 (uncompressed bytes in this segment=4123897) in 0.25 seconds
+0588.917 (0) Table tlaVSxnxwfconfig: finishing file(s) (2, 2256.6 KB)
+0588.925 (0) Table tlaVSxnxwfcrawlers: Total expected rows (approximate): 0
+0588.927 (0) Table tlaVSxnxwfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=582) in 0.00 seconds
+0588.936 (0) Table tlaVSxnxwfcrawlers: finishing file(s) (2, 0.3 KB)
+0588.944 (0) Table tlaVSxnxwffilechanges: Total expected rows (approximate): 0
+0588.947 (0) Table tlaVSxnxwffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=482) in 0.01 seconds
+0588.962 (0) Table tlaVSxnxwffilechanges: finishing file(s) (2, 0.3 KB)
+0588.971 (0) Table tlaVSxnxwffilemods: Total expected rows (approximate): 6134
+0589.170 (0) Table tlaVSxnxwffilemods: Rows added in this batch (next record: 8000): 6368 (uncompressed bytes in this segment=2653652) in 0.20 seconds
+0589.180 (0) The time we have been running (589.2) is approaching the resumption interval (619) - increasing resumption interval to 620
+0589.187 (0) Table tlaVSxnxwffilemods: finishing file(s) (2, 672.1 KB)
+0589.194 (0) Table tlaVSxnxwfhits: Total expected rows (via COUNT): 122
+0589.196 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0589.205 (0) Table tlaVSxnxwfhits: Rows added in this batch (next record: 122): 122 (uncompressed bytes in this segment=37537) in 0.01 seconds
+0589.214 (0) Table tlaVSxnxwfhits: finishing file(s) (2, 3.8 KB)
+0589.221 (0) Table tlaVSxnxwfhoover: Total expected rows (via COUNT): 0
+0589.226 (0) Table tlaVSxnxwfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=545) in 0.01 seconds
+0589.233 (0) Table tlaVSxnxwfhoover: finishing file(s) (2, 0.3 KB)
+0589.243 (0) Table tlaVSxnxwfissues: Total expected rows (via COUNT): 4
+0589.245 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0589.250 (0) Table tlaVSxnxwfissues: Rows added in this batch (next record: 6): 4 (uncompressed bytes in this segment=5718) in 0.01 seconds
+0589.257 (0) Table tlaVSxnxwfissues: finishing file(s) (2, 2 KB)
+0589.263 (0) Table tlaVSxnxwfknownfilelist: Total expected rows (approximate): 12772
+0589.380 (0) Table tlaVSxnxwfknownfilelist: binary mysqldump finished (writes: 31, bytes 2655227, return code 0) in 0.11 seconds
+0589.385 (0) Table tlaVSxnxwfknownfilelist: finishing file(s) (1, 178.9 KB)
+0589.390 (0) Table tlaVSxnxwflivetraffichuman: Total expected rows (approximate): 0
+0589.394 (0) Table tlaVSxnxwflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=678) in 0.00 seconds
+0589.401 (0) Table tlaVSxnxwflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0589.409 (0) Table tlaVSxnxwflocs: Total expected rows (approximate): 0
+0589.412 (0) Table tlaVSxnxwflocs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=708) in 0.01 seconds
+0589.421 (0) Table tlaVSxnxwflocs: finishing file(s) (2, 0.4 KB)
+0589.432 (0) Table tlaVSxnxwflogins: Total expected rows (via COUNT): 34
+0589.434 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0589.440 (0) Table tlaVSxnxwflogins: Rows added in this batch (next record: 34): 34 (uncompressed bytes in this segment=7805) in 0.01 seconds
+0589.449 (0) Table tlaVSxnxwflogins: finishing file(s) (2, 1.3 KB)
+0589.457 (0) Table tlaVSxnxwfls_2fa_secrets: Total expected rows (via COUNT): 0
+0589.463 (0) Table tlaVSxnxwfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=711) in 0.01 seconds
+0589.471 (0) Table tlaVSxnxwfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0589.477 (0) Table tlaVSxnxwfls_settings: Total expected rows (approximate): 24
+0589.479 (0) Table tlaVSxnxwfls_settings: Rows added in this batch (next record: 1000): 24 (uncompressed bytes in this segment=1821) in 0.00 seconds
+0589.486 (0) Table tlaVSxnxwfls_settings: finishing file(s) (2, 0.9 KB)
+0589.493 (0) Table tlaVSxnxwfnotifications: Total expected rows (approximate): 3
+0589.496 (0) Table tlaVSxnxwfnotifications: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=1687) in 0.00 seconds
+0589.507 (0) Table tlaVSxnxwfnotifications: finishing file(s) (2, 0.8 KB)
+0589.518 (0) Table tlaVSxnxwfpendingissues: Total expected rows (via COUNT): 0
+0589.522 (0) Table tlaVSxnxwfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.01 seconds
+0589.533 (0) Table tlaVSxnxwfpendingissues: finishing file(s) (2, 0.4 KB)
+0589.544 (0) Table tlaVSxnxwfreversecache: Total expected rows (approximate): 0
+0589.547 (0) Table tlaVSxnxwfreversecache: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=527) in 0.01 seconds
+0589.556 (0) Table tlaVSxnxwfreversecache: finishing file(s) (2, 0.3 KB)
+0589.567 (0) Table tlaVSxnxwfsnipcache: Total expected rows (via COUNT): 1
+0589.569 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0589.576 (0) Table tlaVSxnxwfsnipcache: Rows added in this batch (next record: 98): 1 (uncompressed bytes in this segment=857) in 0.01 seconds
+0589.585 (0) Table tlaVSxnxwfsnipcache: finishing file(s) (2, 0.5 KB)
+0589.594 (0) Table tlaVSxnxwfstatus: Total expected rows (via COUNT): 186
+0589.596 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0589.607 (0) Table tlaVSxnxwfstatus: Rows added in this batch (next record: 186): 186 (uncompressed bytes in this segment=26448) in 0.01 seconds
+0589.615 (0) Table tlaVSxnxwfstatus: finishing file(s) (2, 4.1 KB)
+0589.623 (0) Table tlaVSxnxwftrafficrates: Total expected rows (approximate): 0
+0589.629 (0) Table tlaVSxnxwftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=596) in 0.01 seconds
+0589.637 (0) Table tlaVSxnxwftrafficrates: finishing file(s) (2, 0.3 KB)
+0589.648 (0) Table tlaVSxnxwpforms_tasks_meta: Total expected rows (via COUNT): 6
+0589.651 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0589.656 (0) Table tlaVSxnxwpforms_tasks_meta: Rows added in this batch (next record: 9): 6 (uncompressed bytes in this segment=1169) in 0.01 seconds
+0589.665 (0) Table tlaVSxnxwpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0589.675 (0) Table tlaVSxnxyoast_indexable: Total expected rows (via COUNT): 94
+0589.677 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0589.691 (0) Table tlaVSxnxyoast_indexable: Rows added in this batch (next record: 118): 94 (uncompressed bytes in this segment=84072) in 0.02 seconds
+0589.702 (0) Table tlaVSxnxyoast_indexable: finishing file(s) (2, 10.6 KB)
+0589.709 (0) Table tlaVSxnxyoast_indexable_hierarchy: Total expected rows (approximate): 59
+0589.716 (0) Table tlaVSxnxyoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 59 (uncompressed bytes in this segment=1782) in 0.01 seconds
+0589.726 (0) Table tlaVSxnxyoast_indexable_hierarchy: finishing file(s) (2, 0.6 KB)
+0589.736 (0) Table tlaVSxnxyoast_migrations: Total expected rows (via COUNT): 23
+0589.739 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0589.745 (0) Table tlaVSxnxyoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1280) in 0.01 seconds
+0589.753 (0) Table tlaVSxnxyoast_migrations: finishing file(s) (2, 0.6 KB)
+0589.764 (0) Table tlaVSxnxyoast_primary_term: Total expected rows (via COUNT): 0
+0589.770 (0) Table tlaVSxnxyoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=890) in 0.01 seconds
+0589.777 (0) Table tlaVSxnxyoast_primary_term: finishing file(s) (2, 0.4 KB)
+0589.785 (0) Table tlaVSxnxyoast_seo_links: Total expected rows (via COUNT): 125
+0589.787 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0589.793 (0) Table tlaVSxnxyoast_seo_links: Rows added in this batch (next record: 230): 125 (uncompressed bytes in this segment=16080) in 0.01 seconds
+0589.799 (0) Table tlaVSxnxyoast_seo_links: finishing file(s) (2, 2.3 KB)
+0589.801 (0) PHP event: code E_WARNING: filemtime(): stat failed for /homepages/38/d900719224/htdocs/clickandbuilds/alanstravelAgency/wp-content/updraft/backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db.gz (line 1922, wp-content/plugins/updraftplus/backup.php)
+0589.804 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxoptions.table.tmpr9762.gz (1/69/fopen): adding to final database dump
+0589.822 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxoptions.table.gz (2/69/fopen): adding to final database dump
+0589.824 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxusers.table.tmpr5.gz (3/69/fopen): adding to final database dump
+0589.827 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxusers.table.gz (4/69/fopen): adding to final database dump
+0589.829 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxusermeta.table.tmpr189.gz (5/69/fopen): adding to final database dump
+0589.832 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxusermeta.table.gz (6/69/fopen): adding to final database dump
+0589.834 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxcommentmeta.table.tmpr0.gz (7/69/fopen): adding to final database dump
+0589.837 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxcommentmeta.table.gz (8/69/fopen): adding to final database dump
+0589.839 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxcomments.table.tmpr2.gz (9/69/fopen): adding to final database dump
+0589.842 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxcomments.table.gz (10/69/fopen): adding to final database dump
+0589.844 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxlinks.table.tmpr0.gz (11/69/fopen): adding to final database dump
+0589.847 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxlinks.table.gz (12/69/fopen): adding to final database dump
+0589.849 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxpostmeta.table.tmpr11043.gz (13/69/fopen): adding to final database dump
+0589.859 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxpostmeta.table.gz (14/69/fopen): adding to final database dump
+0589.867 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxposts.table.tmpr1784.gz (15/69/fopen): adding to final database dump
+0589.882 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxposts.table.gz (16/69/fopen): adding to final database dump
+0589.884 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxterm_relationships.table.tmpr100001.gz (17/69/fopen): adding to final database dump
+0589.886 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxterm_relationships.table.gz (18/69/fopen): adding to final database dump
+0589.888 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxterm_taxonomy.table.tmpr23.gz (19/69/fopen): adding to final database dump
+0589.890 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxterm_taxonomy.table.gz (20/69/fopen): adding to final database dump
+0589.892 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxtermmeta.table.tmpr2.gz (21/69/fopen): adding to final database dump
+0589.893 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxtermmeta.table.gz (22/69/fopen): adding to final database dump
+0589.895 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxterms.table.tmpr23.gz (23/69/fopen): adding to final database dump
+0589.897 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxterms.table.gz (24/69/fopen): adding to final database dump
+0589.899 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxactionscheduler_actions.table.tmpr58.gz (25/69/fopen): adding to final database dump
+0589.901 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxactionscheduler_actions.table.gz (26/69/fopen): adding to final database dump
+0589.903 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxactionscheduler_claims.table.tmpr0.gz (27/69/fopen): adding to final database dump
+0589.905 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxactionscheduler_claims.table.gz (28/69/fopen): adding to final database dump
+0589.907 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxactionscheduler_groups.table.tmpr3.gz (29/69/fopen): adding to final database dump
+0589.909 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxactionscheduler_groups.table.gz (30/69/fopen): adding to final database dump
+0589.911 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxactionscheduler_logs.table.tmpr92.gz (31/69/fopen): adding to final database dump
+0589.913 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxactionscheduler_logs.table.gz (32/69/fopen): adding to final database dump
+0589.915 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxe_events.table.tmpr2.gz (33/69/fopen): adding to final database dump
+0589.918 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxe_events.table.gz (34/69/fopen): adding to final database dump
+0589.920 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxevf_entries.table.tmpr0.gz (35/69/fopen): adding to final database dump
+0589.923 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxevf_entries.table.gz (36/69/fopen): adding to final database dump
+0589.926 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxevf_entrymeta.table.tmpr0.gz (37/69/fopen): adding to final database dump
+0589.929 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxevf_entrymeta.table.gz (38/69/fopen): adding to final database dump
+0589.932 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxevf_sessions.table.tmpr0.gz (39/69/fopen): adding to final database dump
+0589.935 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxevf_sessions.table.gz (40/69/fopen): adding to final database dump
+0589.938 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrm_fields.table.tmpr26.gz (41/69/fopen): adding to final database dump
+0589.940 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrm_fields.table.gz (42/69/fopen): adding to final database dump
+0589.945 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrm_forms.table.tmpr5.gz (43/69/fopen): adding to final database dump
+0589.947 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrm_forms.table.gz (44/69/fopen): adding to final database dump
+0589.950 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrm_item_metas.table.tmpr0.gz (45/69/fopen): adding to final database dump
+0589.954 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrm_item_metas.table.gz (46/69/fopen): adding to final database dump
+0589.957 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrm_items.table.tmpr0.gz (47/69/fopen): adding to final database dump
+0589.959 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrm_items.table.gz (48/69/fopen): adding to final database dump
+0589.962 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrmt_form_entry.table.tmpr30.gz (49/69/fopen): adding to final database dump
+0589.964 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrmt_form_entry.table.gz (50/69/fopen): adding to final database dump
+0589.967 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrmt_form_entry_meta.table.tmpr59.gz (51/69/fopen): adding to final database dump
+0589.970 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrmt_form_entry_meta.table.gz (52/69/fopen): adding to final database dump
+0589.972 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrmt_form_reports.table.tmpr2.gz (53/69/fopen): adding to final database dump
+0589.975 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrmt_form_reports.table.gz (54/69/fopen): adding to final database dump
+0589.977 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrmt_form_views.table.tmpr13.gz (55/69/fopen): adding to final database dump
+0589.980 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxfrmt_form_views.table.gz (56/69/fopen): adding to final database dump
+0589.983 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxmclean_refs.table.tmpr20.gz (57/69/fopen): adding to final database dump
+0589.986 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxmclean_refs.table.gz (58/69/fopen): adding to final database dump
+0589.988 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxmclean_scan.table.tmpr74.gz (59/69/fopen): adding to final database dump
+0589.991 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxmclean_scan.table.gz (60/69/fopen): adding to final database dump
+0589.993 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_action_meta.table.tmpr275.gz (61/69/fopen): adding to final database dump
+0589.996 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_action_meta.table.gz (62/69/fopen): adding to final database dump
+0589.998 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_actions.table.tmpr12.gz (63/69/fopen): adding to final database dump
+0590.000 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_actions.table.gz (64/69/fopen): adding to final database dump
+0590.002 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_chunks.table.tmpr0.gz (65/69/fopen): adding to final database dump
+0590.004 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_chunks.table.gz (66/69/fopen): adding to final database dump
+0590.006 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_field_meta.table.tmpr780.gz (67/69/fopen): adding to final database dump
+0590.008 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_field_meta.table.gz (68/69/fopen): adding to final database dump
+0590.010 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_fields.table.tmpr19.gz (69/69/fopen): adding to final database dump
+0590.013 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_fields.table.gz (70/69/fopen): adding to final database dump
+0590.015 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_form_meta.table.tmpr248.gz (71/69/fopen): adding to final database dump
+0590.017 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_form_meta.table.gz (72/69/fopen): adding to final database dump
+0590.019 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_forms.table.tmpr4.gz (73/69/fopen): adding to final database dump
+0590.022 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_forms.table.gz (74/69/fopen): adding to final database dump
+0590.024 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_object_meta.table.tmpr0.gz (75/69/fopen): adding to final database dump
+0590.026 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_object_meta.table.gz (76/69/fopen): adding to final database dump
+0590.028 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_objects.table.tmpr0.gz (77/69/fopen): adding to final database dump
+0590.030 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_objects.table.gz (78/69/fopen): adding to final database dump
+0590.032 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_relationships.table.tmpr0.gz (79/69/fopen): adding to final database dump
+0590.037 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_relationships.table.gz (80/69/fopen): adding to final database dump
+0590.041 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_upgrades.table.tmpr4.gz (81/69/fopen): adding to final database dump
+0590.044 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxnf3_upgrades.table.gz (82/69/fopen): adding to final database dump
+0590.046 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxum_metadata.table.tmpr0.gz (83/69/fopen): adding to final database dump
+0590.049 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxum_metadata.table.gz (84/69/fopen): adding to final database dump
+0590.052 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfblockediplog.table.tmpr1001.gz (85/69/fopen): adding to final database dump
+0590.055 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfblockediplog.table.gz (86/69/fopen): adding to final database dump
+0590.058 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfblocks7.table.tmpr86.gz (87/69/fopen): adding to final database dump
+0590.061 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfblocks7.table.gz (88/69/fopen): adding to final database dump
+0590.064 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfconfig.table.tmpr1001.gz (89/69/fopen): adding to final database dump
+0590.110 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfconfig.table.gz (90/69/fopen): adding to final database dump
+0590.113 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfcrawlers.table.tmpr1.gz (91/69/fopen): adding to final database dump
+0590.116 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfcrawlers.table.gz (92/69/fopen): adding to final database dump
+0590.123 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwffilechanges.table.tmpr1.gz (93/69/fopen): adding to final database dump
+0590.133 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwffilechanges.table.gz (94/69/fopen): adding to final database dump
+0590.136 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwffilemods.table.tmpr8001.gz (95/69/fopen): adding to final database dump
+0590.156 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwffilemods.table.gz (96/69/fopen): adding to final database dump
+0590.158 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfhits.table.tmpr123.gz (97/69/fopen): adding to final database dump
+0590.161 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfhits.table.gz (98/69/fopen): adding to final database dump
+0590.164 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfhoover.table.tmpr0.gz (99/69/fopen): adding to final database dump
+0590.174 (0) The time we have been running (590.2) is approaching the resumption interval (620) - increasing resumption interval to 621
+0590.179 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfhoover.table.gz (100/69/fopen): adding to final database dump
+0590.181 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfissues.table.tmpr7.gz (101/69/fopen): adding to final database dump
+0590.183 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfissues.table.gz (102/69/fopen): adding to final database dump
+0590.185 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfknownfilelist.table.gz (103/69/fopen): adding to final database dump
+0590.192 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwflivetraffichuman.table.tmpr1.gz (104/69/fopen): adding to final database dump
+0590.194 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwflivetraffichuman.table.gz (105/69/fopen): adding to final database dump
+0590.197 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwflocs.table.tmpr1.gz (106/69/fopen): adding to final database dump
+0590.199 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwflocs.table.gz (107/69/fopen): adding to final database dump
+0590.200 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwflogins.table.tmpr35.gz (108/69/fopen): adding to final database dump
+0590.202 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwflogins.table.gz (109/69/fopen): adding to final database dump
+0590.204 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfls_2fa_secrets.table.tmpr0.gz (110/69/fopen): adding to final database dump
+0590.206 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfls_2fa_secrets.table.gz (111/69/fopen): adding to final database dump
+0590.208 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfls_settings.table.tmpr1001.gz (112/69/fopen): adding to final database dump
+0590.211 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfls_settings.table.gz (113/69/fopen): adding to final database dump
+0590.212 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfnotifications.table.tmpr1001.gz (114/69/fopen): adding to final database dump
+0590.214 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfnotifications.table.gz (115/69/fopen): adding to final database dump
+0590.217 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfpendingissues.table.tmpr0.gz (116/69/fopen): adding to final database dump
+0590.220 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfpendingissues.table.gz (117/69/fopen): adding to final database dump
+0590.223 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfreversecache.table.tmpr1.gz (118/69/fopen): adding to final database dump
+0590.225 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfreversecache.table.gz (119/69/fopen): adding to final database dump
+0590.229 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfsnipcache.table.tmpr99.gz (120/69/fopen): adding to final database dump
+0590.233 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfsnipcache.table.gz (121/69/fopen): adding to final database dump
+0590.237 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfstatus.table.tmpr187.gz (122/69/fopen): adding to final database dump
+0590.240 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwfstatus.table.gz (123/69/fopen): adding to final database dump
+0590.243 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwftrafficrates.table.tmpr1.gz (124/69/fopen): adding to final database dump
+0590.246 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwftrafficrates.table.gz (125/69/fopen): adding to final database dump
+0590.248 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwpforms_tasks_meta.table.tmpr10.gz (126/69/fopen): adding to final database dump
+0590.252 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxwpforms_tasks_meta.table.gz (127/69/fopen): adding to final database dump
+0590.254 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxyoast_indexable.table.tmpr119.gz (128/69/fopen): adding to final database dump
+0590.265 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxyoast_indexable.table.gz (129/69/fopen): adding to final database dump
+0590.287 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxyoast_indexable_hierarchy.table.tmpr1001.gz (130/69/fopen): adding to final database dump
+0590.316 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxyoast_indexable_hierarchy.table.gz (131/69/fopen): adding to final database dump
+0590.321 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxyoast_migrations.table.tmpr24.gz (132/69/fopen): adding to final database dump
+0590.331 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxyoast_migrations.table.gz (133/69/fopen): adding to final database dump
+0590.337 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxyoast_primary_term.table.tmpr0.gz (134/69/fopen): adding to final database dump
+0590.339 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxyoast_primary_term.table.gz (135/69/fopen): adding to final database dump
+0590.342 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxyoast_seo_links.table.tmpr231.gz (136/69/fopen): adding to final database dump
+0590.344 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db-table-tlaVSxnxyoast_seo_links.table.gz (137/69/fopen): adding to final database dump
+0590.349 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db.gz: finished writing out complete database file (4420.9 KB)
+0590.628 (0) Total database tables backed up: 69 (backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db.gz, size: 4527153, sha1: 5bb298bfead75b41aa8fda47bcb0d44ff07219cb, sha256: b40e996898d83d3b7e99dd2a7d27a5f780c4e90909b1638a5cad425872612570)
+0590.638 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-plugins.zip: plugins: This file has already been successfully uploaded
+0590.640 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-themes.zip: themes: This file has already been successfully uploaded
+0590.641 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-uploads.zip: uploads: This file has already been successfully uploaded
+0590.643 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-others.zip: others: This file has already been successfully uploaded
+0590.645 (0) backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0590.647 (0) Saving backup history. Total backup size: 115.1 MB
+0590.652 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0590.658 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0590.660 (0) No remote despatch: user chose no remote backup service
+0590.662 (0) Recording as successfully uploaded: backup_2022-12-19-0714_Alan039s_travelAgency_bf750669448f-db.gz
+0590.668 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0590.671 (0) Number of backup sets in history: 2; groups (db): 1
+0590.673 (0) Examining (for databases) backup set with group_id=0, nonce=bf750669448f, datestamp=1671430455 (Dec 19 2022 06:14:15)
+0590.675 (0) This backup set is the backup set just made, so will not be deleted.
+0590.675 (0) Examining (for databases) backup set with group_id=0, nonce=c399b4ca323c, datestamp=1671342245 (Dec 18 2022 05:44:05)
+0590.675 (0) 1671342245: db: this set includes a database (backup_2022-12-18-0644_Alan039s_travelAgency_c399b4ca323c-db.gz); db count is now 1
+0590.675 (0) 1671342245: db: over retain limit (1); will delete this database
+0590.675 (0) Delete file: backup_2022-12-18-0644_Alan039s_travelAgency_c399b4ca323c-db.gz, service=none
+0590.677 (0) Deleting local copy (backup_2022-12-18-0644_Alan039s_travelAgency_c399b4ca323c-db.gz)
+0590.682 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0590.684 (0) Number of backup sets in history: 2; groups (files): 1
+0590.686 (0) Examining (for files) backup set with nonce=bf750669448f, datestamp=1671430455 (Dec 19 2022 06:14:15)
+0590.686 (0) This backup set is the backup set just made, so will not be deleted.
+0590.688 (0) This backup set is the backup set just made, so will not be deleted.
+0590.689 (0) This backup set is the backup set just made, so will not be deleted.
+0590.689 (0) This backup set is the backup set just made, so will not be deleted.
+0590.689 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0590.691 (0) Examining (for files) backup set with nonce=c399b4ca323c, datestamp=1671342245 (Dec 18 2022 05:44:05)
+0590.691 (0) plugins: over retain limit (1); will delete this file entity
+0590.691 (0) themes: over retain limit (1); will delete this file entity
+0590.691 (0) uploads: over retain limit (1); will delete this file entity
+0590.691 (0) others: over retain limit (1); will delete this file entity
+0590.691 (0) Delete file: backup_2022-12-18-0644_Alan039s_travelAgency_c399b4ca323c-plugins.zip, service=none
+0590.695 (0) Deleting local copy (backup_2022-12-18-0644_Alan039s_travelAgency_c399b4ca323c-plugins.zip)
+0590.697 (0) Delete file: backup_2022-12-18-0644_Alan039s_travelAgency_c399b4ca323c-themes.zip, service=none
+0590.700 (0) Deleting local copy (backup_2022-12-18-0644_Alan039s_travelAgency_c399b4ca323c-themes.zip)
+0590.702 (0) Delete file: backup_2022-12-18-0644_Alan039s_travelAgency_c399b4ca323c-uploads.zip, service=none
+0590.704 (0) Deleting local copy (backup_2022-12-18-0644_Alan039s_travelAgency_c399b4ca323c-uploads.zip)
+0590.708 (0) Delete file: backup_2022-12-18-0644_Alan039s_travelAgency_c399b4ca323c-others.zip, service=none
+0590.711 (0) Deleting local copy (backup_2022-12-18-0644_Alan039s_travelAgency_c399b4ca323c-others.zip)
+0590.718 (0) This backup set is now empty; will remove from history
+0590.721 (0) Deleting log file (log.c399b4ca323c.txt)
+0590.734 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0590.743 (0) Resume backup (bf750669448f, 0): finish run
+0590.751 (0) Decremented the semaphore (fd) by 1
+0590.757 (0) Semaphore (fd) unlocked
+0590.759 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0590.768 (0) The backup apparently succeeded and is now complete
+0590.770 (0) No email will/can be sent - the user has not configured an email address.
+0590.772 (0) La sauvegarde a apparemment réussi et est maintenant terminée

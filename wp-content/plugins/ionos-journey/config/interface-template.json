@@ -1,0 +1,14 @@
+{
+  "name": "IONOS Journey",
+  "modal": {
+      "continue": "Fortfahren",
+      "restart": "Neustarten",
+      "popup_title": "Möchten Sie ihr Journey fortsetzen?",
+      "popup_content": "Sie haben bereits ein Journey begonnen, dieses können Sie nun fortsetzen oder ein neues beginnen.",
+      "popup_warning": "Bei einem Neustart wird Ihr bisheriger Fortschritt überschrieben."
+  },
+  "settings": {
+      "visibility": "Journey anzeigen",
+      "visibility_description": "Journey in der Adminbar anzeigen"
+  }
+}

@@ -1,0 +1,2 @@
+msgid "You can customize and manage your URL (domain) easily at <a href=\"%s\" target=\"_blank\">%s App Center</a>."
+msgstr "Vous pouvez simplement modifier et gérer votre URL (domaine) dans l'<a href=\"%s\" target=\"_blank\">App Center</a>."

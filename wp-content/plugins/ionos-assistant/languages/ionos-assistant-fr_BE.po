@@ -1,0 +1,458 @@
+# Copyright (C) 2022 IONOS
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: IONOS Assistant 8.4.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-"
+"plugin_1and1-wordpress-assistant\n"
+"POT-Creation-Date: 2022-07-05T14:23:54+02:00\n"
+"PO-Revision-Date: 2022-07-06 11:28+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Domain: ionos-assistant\n"
+
+#. Plugin Name of the plugin
+msgid "Wizard"
+msgstr "Wizard"
+
+#: inc/class-manager.php:94 inc/class-manager.php:44
+msgid "IONOS Assistant"
+msgstr "IONOS Assistant"
+
+#: inc/controllers/class-abort-plugin-selection.php:24
+msgid "Step 1 of 1"
+msgstr "Étape 1 sur 1"
+
+#: inc/controllers/class-abort-plugin-selection.php:25
+#: inc/controllers/class-plugin-selection.php:44
+msgid "Pick some plugins"
+msgstr "Choisissez quelques extensions"
+
+#: inc/controllers/class-abort-plugin-selection.php:39
+msgid "Abort Plugin selection"
+msgstr "Abandonner la sélection de extensions"
+
+#: inc/controllers/class-completed.php:18
+msgid "Setup completed"
+msgstr "Configuration terminée"
+
+#: inc/controllers/class-install.php:24
+msgid "Installation in progress"
+msgstr "Installation en cours"
+
+#: inc/controllers/class-install.php:37
+#: inc/controllers/class-plugin-selection.php:92
+msgid "Plugin selection"
+msgstr "Sélection de extensions"
+
+#: inc/controllers/class-plugin-advertising.php:47
+msgid "Jetpack"
+msgstr "Jetpack"
+
+#: inc/controllers/class-plugin-selection.php:43
+msgid "Step 4 of 5"
+msgstr "Étape 4 sur 5"
+
+#: inc/controllers/class-summary.php:29
+msgid "Step 2 of 2"
+msgstr "Étape 2 sur 2"
+
+#: inc/controllers/class-summary.php:30
+msgid "Abort Summary"
+msgstr "Abandon du résumé"
+
+#: inc/controllers/class-summary.php:59
+msgid "Step 5 of 5"
+msgstr "Étape 5 sur 5"
+
+#: inc/controllers/class-summary.php:60 inc/controllers/class-summary.php:92
+msgid "Summary"
+msgstr "Résumé"
+
+#: inc/controllers/class-theme-preview.php:26
+msgid "Step 3 of 5"
+msgstr "Étape 3 sur 5"
+
+#: inc/controllers/class-theme-preview.php:45
+msgid "Theme preview"
+msgstr "Aperçu du thème"
+
+#: inc/controllers/class-theme-selection.php:28
+msgid "Step 2 of 5"
+msgstr "Étape 2 sur 5"
+
+#: inc/controllers/class-theme-selection.php:29
+msgid "Choose your theme"
+msgstr "Choisissez votre thème"
+
+#: inc/controllers/class-theme-selection.php:41
+msgid "Theme selection"
+msgstr "Sélection du thème"
+
+#: inc/controllers/class-use-case-selection.php:21
+msgid "Step 1 of 5"
+msgstr "Étape 1 sur 5"
+
+#: inc/controllers/class-use-case-selection.php:22
+msgid "What would you like to build?"
+msgstr "Que voulez-vous construire ?"
+
+#: inc/controllers/class-use-case-selection.php:34
+msgid "Use case selection"
+msgstr "Sélection des cas d’utilisation"
+
+#: inc/controllers/class-welcome.php:13
+msgid "Welcome to WordPress by IONOS"
+msgstr "Bienvenue sur WordPress by IONOS"
+
+#: inc/views/abort-plugin-selection.php:13
+msgid ""
+"WordPress Plugins extend WordPress functionality in almost any form "
+"imaginable. We picked a few useful plugins from the thousands of available "
+"plugins to make starting your website more manageable. If you want to add "
+"more plugins, you can do so later."
+msgstr ""
+"Les plugins WordPress étendent les fonctionnalités de WordPress sous presque "
+"toutes les formes imaginables. Nous avons choisi quelques extensions utiles "
+"parmi les milliers de extensions disponibles pour rendre le démarrage de "
+"votre site web plus facile. Si vous souhaitez ajouter d’autres extensions, "
+"vous pourrez le faire plus tard."
+
+#: inc/views/abort-plugin-selection.php:15
+msgid "You can also skip this step"
+msgstr "Vous pouvez également sauter cette étape"
+
+#: inc/views/abort-plugin-selection.php:16
+msgid "Select your plugins"
+msgstr "Sélectionnez vos extensions"
+
+#: inc/views/abort-plugin-selection.php:39
+msgid "Confirm selection"
+msgstr "Confirmer la sélection"
+
+#: inc/views/abort-plugin-selection.php:40 inc/views/plugin-selection.php:56
+#: inc/views/theme-preview.php:44 inc/views/theme-selection.php:43
+msgid "Back"
+msgstr "Retour"
+
+#: inc/views/abort-summary.php:23 inc/views/summary.php:31
+msgid "Plugins to be installed"
+msgstr "Plugins à installer"
+
+#: inc/views/abort-summary.php:36 inc/views/summary.php:52
+msgid "Edit plugins selection"
+msgstr "Modifier la sélection des extensions"
+
+#: inc/views/abort-summary.php:39 inc/views/summary.php:56
+msgid "Install"
+msgstr "Installer"
+
+#: inc/views/abort-summary.php:40 inc/views/summary.php:57
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: inc/views/completed.php:2
+msgid "Setup completed!"
+msgstr "Configuration terminée !"
+
+#: inc/views/completed.php:3
+msgid "Go to dashboard"
+msgstr "Aller au tableau de bord"
+
+#: inc/views/parts/header-bigcontent.php:11
+#: inc/views/parts/header-mediumcontent.php:11 inc/views/parts/header.php:11
+msgid "Counter missing"
+msgstr "Compteur manquant"
+
+#: inc/views/parts/header-bigcontent.php:12
+#: inc/views/parts/header-mediumcontent.php:12 inc/views/parts/header.php:12
+msgid "HEADING MISSING"
+msgstr "TITRE MANQUANT"
+
+#: inc/views/plugin-advertising.php:18
+msgctxt "plugin-advertising-heading"
+msgid "Install Jetpack"
+msgstr "Installer Jetpack"
+
+#: inc/views/plugin-advertising.php:20
+msgid "Get essential WordPress security and performance tools by setting up Jetpack"
+msgstr "Obtenez les outils essentiels de sécurité et de performance de WordPress en installant Jetpack"
+
+#: inc/views/plugin-advertising.php:21
+msgid "You can install Jetpack immediately with this WordPress installation. Jetpack gives you more options and tools to do even more with your WordPress installation. In order to use Jetpack to its full extent, a separate registration is required."
+msgstr "Vous pouvez installer Jetpack dès maintenant pour cette version de WordPress. Jetpack offre plus d'options et d'outils pour vous aider à tirer le meilleur parti de votre WordPress. Afin de pouvoir utiliser toutes les fonctionnalités de Jetpack, un enregistrement séparé est nécessaire."
+
+#: inc/views/plugin-advertising.php:23
+msgid "Install Jetpack"
+msgstr "Installer Jetpack"
+
+#: inc/views/plugin-advertising.php:24
+msgid "Not now, thank you"
+msgstr "Pas maintenant, merci"
+
+#: inc/views/plugin-selection.php:19
+msgid ""
+"WordPress Plugins extend WordPress functionality in almost any form "
+"imaginable. We picked a few useful plugins from the thousands of available "
+"plugins to make starting your website more manageable. If you want to add "
+"more plugins, you can do so after finishing this Assistant."
+msgstr ""
+"Les extensions WordPress étendent les fonctionnalités de WordPress sous "
+"presque toutes les formes imaginables. Nous avons choisi quelques extensions "
+"utiles parmi les milliers de extensions disponibles pour rendre le démarrage "
+"de votre site web plus facile. Si vous souhaitez ajouter d’autres "
+"extensions, vous pouvez le faire après avoir terminé cet assistant."
+
+#: inc/views/plugin-selection.php:55 inc/views/theme-preview.php:43
+msgid "Next Step"
+msgstr "Étape suivante"
+
+#: inc/views/summary.php:29
+msgid "Theme selected"
+msgstr "Thème choisi"
+
+#: inc/views/theme-preview.php:34
+msgid "Theme Preview"
+msgstr "Aperçu du thème"
+
+#: inc/views/theme-selection.php:15
+msgid ""
+"In WordPress, Themes are design packages ready to be used on your site. "
+"Different themes come with different page layouts and give your website "
+"character. If none of the pre-selected themes fits your needs, you can "
+"install any other theme after finalizing this Assistant."
+msgstr ""
+"Dans WordPress, les thèmes sont des packs de conception prêts à être "
+"utilisés sur votre site. Les différents thèmes sont accompagnés de "
+"différentes mises en page et donnent du caractère à votre site. Si aucun des "
+"thèmes présélectionnés ne correspond à vos besoins, vous pouvez installer "
+"n’importe quel autre thème après avoir finalisé cet assistant."
+
+#: inc/views/use-case-selection.php:10
+msgid ""
+"Tell us what you plan to do with your new website. The Assistant will use "
+"this info to suggest fitting Designs and useful Plugins. But don’t worry, "
+"this is not a final decision. You can change every aspect of your site later."
+msgstr ""
+"Dites-nous ce que vous comptez faire avec votre nouveau site Web. "
+"L’assistant utilisera ces informations pour vous suggérer des designs "
+"adaptés et des extensions utiles. Mais ne vous inquiétez pas, il ne s’agit "
+"pas d’une décision définitive. Vous pourrez modifier tous les aspects de "
+"votre site ultérieurement."
+
+#: inc/views/welcome.php:9
+msgid ""
+"Our Assistant will help you to get started with WordPress. You can select a "
+"Theme and pick from a list of suitable Plugins for your use case. After "
+"completing the following steps, you can start creating content and put some "
+"finishing touches to your website!"
+msgstr ""
+"Notre assistant vous aidera à démarrer avec WordPress. Vous pouvez "
+"sélectionner un thème et choisir parmi une liste de extensions adaptés à "
+"votre cas d’utilisation. Après avoir suivi les étapes suivantes, vous "
+"pourrez commencer à créer du contenu et à mettre la touche finale à votre "
+"site Web !"
+
+#: inc/views/welcome.php:10
+msgid "Let‘s go!"
+msgstr "C’est parti !"
+
+#: inc/views/welcome.php:11
+msgid "I want to configure WordPress installation myself"
+msgstr "Je veux configurer moi-même l’installation de WordPress"
+
+#. Plugin Name of the plugin
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/class-manager.php:37
+msgid "IONOS WordPress"
+msgstr "IONOS WordPress"
+
+#: inc/class-manager.php:169
+msgid "Close IONOS WordPress panel"
+msgstr "Fermer le panneau IONOS WordPress"
+
+#: views/dashboard.php:20
+msgid "Your WordPress is now ready to get going."
+msgstr "Votre WordPress est maintenant prêt à fonctionner."
+
+#: views/dashboard.php:23
+msgid "Next Steps"
+msgstr "Bases"
+
+#: views/dashboard.php:26 views/dashboard.php:29
+msgid "Edit your front page"
+msgstr "Éditer votre site Web"
+
+#: views/dashboard.php:27 views/dashboard.php:30
+msgid "Add additional pages"
+msgstr "Ajouter de nouvelles pages"
+
+#: views/dashboard.php:31
+msgid "Add a blog post"
+msgstr "Écrire un article"
+
+#: views/dashboard.php:33
+msgid "Write your first blog post"
+msgstr "Rédiger votre premier article de blog"
+
+#: views/dashboard.php:34
+msgid "Add an About page"
+msgstr "Ajouter une page À propos"
+
+#: views/dashboard.php:36
+msgid "View your site"
+msgstr "Afficher votre site"
+
+#: views/dashboard.php:38
+msgid "Take our WordPress Journey"
+msgstr "Suivez notre voyage sur WordPress"
+
+#: views/dashboard.php:43
+msgid "More Actions"
+msgstr "Plus d'actions"
+
+#: views/dashboard.php:47
+msgid "Getting started"
+msgstr "Premiers pas"
+
+#: views/dashboard.php:51
+msgid "Customize the design"
+msgstr "Modifier le design"
+
+#: views/dashboard.php:54
+msgid "Manage and add plugins"
+msgstr "Modifier vos extensions"
+
+#: views/dashboard.php:57
+msgid "Create an e-mail address"
+msgstr "Créer une adresse e-mail"
+
+#: views/dashboard.php:60
+msgid "Change domain"
+msgstr "Changer de domaine"
+
+#: views/dashboard.php:62
+msgid "Activate SSL"
+msgstr "Activer SSL"
+
+#. Plugin Name of the plugin
+msgid "Assistant Descriptify"
+msgstr "Assistant Descriptify"
+
+#. translators: s=link to control panel
+#: inc/class-manager.php:24
+msgid ""
+"You can customize and manage your URL (domain) easily at <a href=\"%1$s\" "
+"target=\"_blank\">%2$s App Center</a>."
+msgstr ""
+"Vous pouvez personnaliser et gérer votre URL (domaine) facilement sur <a "
+"href=\"%1$s\" target=\"_blank\">%2$s."
+
+#. Plugin Name of the plugin
+msgid "Jetpack backup flow"
+msgstr "Jetpack backup flow"
+
+#: inc/controllers/class-confirm.php:13
+msgid "Confirm Jetpack installation"
+msgstr "Confirmez l’installation de Jetpack"
+
+#: inc/controllers/class-install.php:47
+msgid "Installing Jetpack"
+msgstr "Installation de Jetpack"
+
+#: inc/views/confirm.php:11
+msgid "Jetpack Backup"
+msgstr "Jetpack Backup"
+
+#: inc/views/confirm.php:13
+msgid "We are going to install Jetpack Backup now."
+msgstr "Nous allons installer Jetpack Backup maintenant."
+
+#: inc/views/confirm.php:14
+msgid "Ok"
+msgstr "Ok"
+
+#: inc/views/confirm.php:15
+msgid "No thanks"
+msgstr "Non merci."
+
+#: inc/views/install.php:1
+msgid "Installing Jetpack Backup"
+msgstr "Installation de Jetpack Backup"
+
+#: inc/views/install.php:2
+msgid "Please wait a moment while we are installing Jetpack Backup for you."
+msgstr ""
+"Veuillez patienter un moment pendant que nous installons Jetpack Backup pour "
+"vous."
+
+#: inc/views/install.php:14
+msgid "We’re starting to install your selected components in a moment."
+msgstr "Nous allons commencer à installer les composants que vous avez sélectionnés dans un instant."
+
+#. Plugin Name of the plugin
+msgid "IONOS Assistant"
+msgstr "IONOS Assistant"
+
+#. Plugin URI of the plugin
+msgid "https://www.ionos.com"
+msgstr "https://www.ionos.com"
+
+#. Description of the plugin
+msgid ""
+"IONOS Assistant will help you complete the first setup of your WordPress "
+"in quick and easy steps. It will help you find a theme to start with and add "
+"some plugins that will help you with the purpose of your WordPress "
+"installation."
+msgstr ""
+"IONOS Assistant vous aidera à compléter la première installation de votre "
+"WordPress en étapes rapides et faciles. Il vous aidera à trouver un thème "
+"pour commencer et à ajouter quelques plugins qui vous aideront dans "
+"l’objectif de votre installation WordPress."
+
+#. Author of the plugin
+msgid "IONOS"
+msgstr "IONOS"
+
+#. Author URI of the plugin
+msgid "https://www.ionos.com"
+msgstr "https://www.ionos.com"
+
+msgid "Company"
+msgstr "Entreprises"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Store"
+msgstr "Boutique en ligne"
+
+msgid "Gallery"
+msgstr "Images"
+
+msgid "Personal"
+msgstr "Personnel"
+
+msgid "Podcast"
+msgstr "Podcast"
+
+msgid "Club"
+msgstr "Club"
+
+# --------------- Disable Warning --------------- #
+msgid "Warning"
+msgstr "Avertissement"
+
+msgid "Disable"
+msgstr "Désactiver"
+
+msgid "You are about to disable an IONOS plugin. This may cause dependency problems to other plugins. Do you really want to do that?"
+msgstr "<p>Vous êtes sur le point de désactiver le plugin IONOS Assistant.</p><p>Ce plugin vous propose un assistant de configuration qui vous permet de sélectionner facilement le thème et les plugins qui répondent le mieux à vos besoins et aux exigences de votre projet.</p><div class='notice notice-warning inline'><p>Si vous désactivez le plugin, l'assistant de configuration ne sera plus disponible.</p></div><p>Si vous décidez néanmoins de désactiver et de supprimer le plugin, vous pouvez le réinstaller à tout moment via Extensions › Ajouter.</p>"

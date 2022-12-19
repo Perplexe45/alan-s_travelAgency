@@ -1,0 +1,8 @@
+/* Assistant styles */
+.wp-customizer .card-lightbox #TB_ajaxContent .btn {
+	color: "{variant3}";
+}
+body.assistant-page .header {
+	background-color: #f8f8f8;
+	background-color: "{header}";
+}

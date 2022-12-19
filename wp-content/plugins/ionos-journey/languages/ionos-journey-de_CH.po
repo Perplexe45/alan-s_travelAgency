@@ -1,0 +1,5 @@
+domain "ionos-journey"
+
+#. Description of the plugin
+msgid "IONOS Journey is your guide through WordPress. If you have never used WordPress before, Journey will show you the essential parts of the interface. You can stop and restart your Journey at any time."
+msgstr "IONOS Journey ist Ihr Wegweiser durch WordPress. Wenn Sie WordPress noch nie benutzt haben, zeigt Ihnen Journey die wichtigsten Teile der Benutzeroberfläche. Sie können Ihre Journey jederzeit unterbrechen und neu starten."

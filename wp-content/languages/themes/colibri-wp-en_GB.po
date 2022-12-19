@@ -1,0 +1,1681 @@
+# Translation of Themes - Colibri WP in English (UK)
+# This file is distributed under the same license as the Themes - Colibri WP package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-18 13:26:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: en_GB\n"
+"Project-Id-Version: Themes - Colibri WP\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Colibri is a beautiful, extremely customizable, multipurpose theme that you can use to create an amazing website by drag and drop. It comes with a predesigned home page, 5 header designs and over 35 ready to use content blocks that you can easily customize. You can also design your own custom blocks by combining over 25 drag and drop components. Colibri has lots of customization options (video background, slideshow background, header content types, etc) that will help you create a website that stands out in no time. It is also responsive so it works on mobile devices out of the box. Colibri is the only theme you will ever need! CHECK OUT THE DEMOS: https://colibriwp.com/go/demos"
+msgstr "Colibri is a beautiful, extremely customisable, multipurpose theme that you can use to create an amazing website by drag and drop. It comes with a predesigned home page, 5 header designs and over 35 ready to use content blocks that you can easily customise. You can also design your own custom blocks by combining over 25 drag and drop components. Colibri has lots of customisation options (video background, slideshow background, header content types, etc.) that will help you create a website that stands out in no time. It is also responsive, so it works on mobile devices out of the box. Colibri is the only theme you will ever need! CHECK OUT THE DEMOS: https://colibriwp.com/go/demos"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Colibri WP"
+msgstr "Colibri WP"
+
+#: admin/page.php:18 inc/src/Theme.php:209
+msgid "Activating"
+msgstr "Activating"
+
+#: inc/template-functions.php:179
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: inc/translations.php:308
+msgid "Undefined sanitize function for control \"%s\""
+msgstr "Undefined sanitise function for control \"%s\""
+
+#: template-parts/layout-wrapper-content/tags-container-1.php:9
+msgid "Tags:"
+msgstr "Tags:"
+
+#: template-parts/layout-wrapper-content/categories-container-1.php:9
+msgid "Categories:"
+msgstr "Categories:"
+
+#: template-parts/main/archive_item_template.php:87
+msgid "read more"
+msgstr "read more"
+
+#: inc/functions.php:159
+msgid "Woo Commerce left sidebar widget area"
+msgstr "WooCommerce left sidebar widget area"
+
+#. Template Name of the theme
+msgid "Landing Page Template"
+msgstr "Landing Page Template"
+
+#: inc/translations.php:256
+msgid "Colibri Settings"
+msgstr "Colibri Settings"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3665
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing Plugin %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3662
+msgid "All installations have been completed."
+msgstr "All installations have been completed."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3658
+msgid "%1$s installed successfully."
+msgstr "%1$s installed successfully."
+
+#: inc/class-tgm-plugin-activation.php:3655
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "The installation process is starting. This process may take a while on some hosts, so please be patient."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3651
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3648
+msgid "All installations and activations have been completed."
+msgstr "All installations and activations have been completed."
+
+#: inc/class-tgm-plugin-activation.php:3646
+#: inc/class-tgm-plugin-activation.php:3660
+msgid "Hide Details"
+msgstr "Hide Details"
+
+#: inc/class-tgm-plugin-activation.php:3645
+#: inc/class-tgm-plugin-activation.php:3659
+msgid "Show Details"
+msgstr "Show Details"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3644
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installed and activated successfully."
+
+#: inc/class-tgm-plugin-activation.php:3641
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3636
+msgid "The installation of %1$s failed."
+msgstr "The installation of %1$s failed."
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3633
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "An error occurred while installing %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3629
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Updating Plugin %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3274
+msgid "Plugin activation failed."
+msgstr "Plugin activation failed."
+
+#: inc/class-tgm-plugin-activation.php:3039
+msgid "No plugins are available to be activated at this time."
+msgstr "No plugins are available to be activated at this time."
+
+#: inc/class-tgm-plugin-activation.php:3012
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "No plugins were selected to be activated. No action taken."
+
+#: inc/class-tgm-plugin-activation.php:2905
+msgid "No plugins are available to be updated at this time."
+msgstr "No plugins are available to be updated at this time."
+
+#: inc/class-tgm-plugin-activation.php:2903
+msgid "No plugins are available to be installed at this time."
+msgstr "No plugins are available to be installed at this time."
+
+#: inc/class-tgm-plugin-activation.php:2862
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "No plugins were selected to be updated. No action taken."
+
+#: inc/class-tgm-plugin-activation.php:2860
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "No plugins were selected to be installed. No action taken."
+
+#: inc/class-tgm-plugin-activation.php:2826
+msgid "Update"
+msgstr "Update"
+
+#: inc/class-tgm-plugin-activation.php:2786
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade message from the plugin author:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2712
+msgid "Activate %2$s"
+msgstr "Activate %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2706
+msgid "Update %2$s"
+msgstr "Update %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2701
+msgid "Install %2$s"
+msgstr "Install %2$s"
+
+#: inc/class-tgm-plugin-activation.php:2651
+msgid "Status"
+msgstr "Status"
+
+#: inc/class-tgm-plugin-activation.php:2650
+msgid "Version"
+msgstr "Version"
+
+#: inc/class-tgm-plugin-activation.php:2645
+msgid "Source"
+msgstr "Source"
+
+#: inc/class-tgm-plugin-activation.php:2644
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/class-tgm-plugin-activation.php:2628
+msgid "No plugins to install, update or activate."
+msgstr "No plugins to install, update or activate."
+
+#: inc/class-tgm-plugin-activation.php:2604
+msgid "Available version:"
+msgstr "Available version:"
+
+#: inc/class-tgm-plugin-activation.php:2590
+msgid "Minimum required version:"
+msgstr "Minimum required version:"
+
+#: inc/class-tgm-plugin-activation.php:2581
+msgid "Installed version:"
+msgstr "Installed version:"
+
+#: inc/class-tgm-plugin-activation.php:2572
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "unknown"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2485
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "To Activate <span class=\"count\">(%s)</span>"
+msgstr[1] "To Activate <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2480
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Update Available <span class=\"count\">(%s)</span>"
+msgstr[1] "Update Available <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2475
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "To Install <span class=\"count\">(%s)</span>"
+msgstr[1] "To Install <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2470
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "All <span class=\"count\">(%s)</span>"
+msgstr[1] "All <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2423
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/class-tgm-plugin-activation.php:2414
+msgid "Update recommended"
+msgstr "Update recommended"
+
+#: inc/class-tgm-plugin-activation.php:2411
+msgid "Requires Update"
+msgstr "Requires Update"
+
+#: inc/class-tgm-plugin-activation.php:2408
+msgid "Required Update not Available"
+msgstr "Required Update not Available"
+
+#: inc/class-tgm-plugin-activation.php:2400
+msgid "Installed But Not Activated"
+msgstr "Installed But Not Activated"
+
+#: inc/class-tgm-plugin-activation.php:2396
+msgid "Not Installed"
+msgstr "Not Installed"
+
+#: inc/class-tgm-plugin-activation.php:2378
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: inc/class-tgm-plugin-activation.php:2375
+msgid "External Source"
+msgstr "External Source"
+
+#: inc/class-tgm-plugin-activation.php:2372
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: inc/class-tgm-plugin-activation.php:2355
+msgid "Recommended"
+msgstr "Recommended"
+
+#: inc/class-tgm-plugin-activation.php:2352
+msgid "Required"
+msgstr "Required"
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:2054
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/class-tgm-plugin-activation.php:1152
+#: inc/class-tgm-plugin-activation.php:3055
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "and"
+
+#: inc/class-tgm-plugin-activation.php:960
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+
+#: inc/class-tgm-plugin-activation.php:955
+#: inc/class-tgm-plugin-activation.php:961
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+
+#: inc/class-tgm-plugin-activation.php:954
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+
+#: inc/class-tgm-plugin-activation.php:532
+msgid "Update Required"
+msgstr "Update Required"
+
+#: inc/class-tgm-plugin-activation.php:531
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "This plugin needs to be updated to be compatible with your theme."
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Please contact the administrator of this site for help."
+
+#: inc/class-tgm-plugin-activation.php:402
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "There are one or more required or recommended plugins to install, update or activate."
+
+#: inc/class-tgm-plugin-activation.php:401
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:399
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "All plugins installed and activated successfully. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:396
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:393
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No action taken. Plugin %1$s was already active."
+
+#: inc/class-tgm-plugin-activation.php:390
+#: inc/class-tgm-plugin-activation.php:3060
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "The following plugin was activated successfully:"
+msgstr[1] "The following plugins were activated successfully:"
+
+#: inc/class-tgm-plugin-activation.php:389
+#: inc/class-tgm-plugin-activation.php:3275
+msgid "Plugin activated successfully."
+msgstr "Plugin activated successfully."
+
+#: inc/class-tgm-plugin-activation.php:388
+#: inc/class-tgm-plugin-activation.php:843
+#: inc/class-tgm-plugin-activation.php:2629
+#: inc/class-tgm-plugin-activation.php:3728
+msgid "Return to the Dashboard"
+msgstr "Return to the Dashboard"
+
+#: inc/class-tgm-plugin-activation.php:387
+msgid "Return to Required Plugins Installer"
+msgstr "Return to Required Plugins Installer"
+
+#: inc/class-tgm-plugin-activation.php:382
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Begin activating plugin"
+msgstr[1] "Begin activating plugins"
+
+#: inc/class-tgm-plugin-activation.php:377
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Begin updating plugin"
+msgstr[1] "Begin updating plugins"
+
+#: inc/class-tgm-plugin-activation.php:372
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Begin installing plugin"
+msgstr[1] "Begin installing plugins"
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:366
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "The following recommended plugin is currently inactive: %1$s."
+msgstr[1] "The following recommended plugins are currently inactive: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:360
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "The following required plugin is currently inactive: %1$s."
+msgstr[1] "The following required plugins are currently inactive: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:354
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "There is an update available for: %1$s."
+msgstr[1] "There are updates available for the following plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:348
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[1] "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:342
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "This theme recommends the following plugin: %1$s."
+msgstr[1] "This theme recommends the following plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:336
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "This theme requires the following plugin: %1$s."
+msgstr[1] "This theme requires the following plugins: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:335
+msgid "Something went wrong with the plugin API."
+msgstr "Something went wrong with the plugin API."
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:334
+msgid "Updating Plugin: %s"
+msgstr "Updating Plugin: %s"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:332
+msgid "Installing Plugin: %s"
+msgstr "Installing Plugin: %s"
+
+#: inc/class-tgm-plugin-activation.php:330
+msgid "Install Plugins"
+msgstr "Install Plugins"
+
+#: inc/class-tgm-plugin-activation.php:329
+msgid "Install Required Plugins"
+msgstr "Install Required Plugins"
+
+#: inc/translations.php:305
+msgid "These actions will also install Colibri Page Builder plugin."
+msgstr "These actions will also install Colibri Page Builder plugin."
+
+#: inc/translations.php:304
+msgid "Add Predefined Section"
+msgstr "Add Predefined Section"
+
+#: inc/translations.php:303
+msgid "Choose footer design"
+msgstr "Choose footer design"
+
+#: inc/translations.php:302
+msgid "Choose header design"
+msgstr "Choose header design"
+
+#: inc/translations.php:301
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#: inc/class-tgm-plugin-activation.php:2402 inc/translations.php:300
+msgid "Active"
+msgstr "Active"
+
+#: inc/translations.php:299
+msgid "Activating %s"
+msgstr "Activating %s"
+
+#: inc/translations.php:298
+msgid "Installing %s"
+msgstr "Installing %s"
+
+#: inc/class-tgm-plugin-activation.php:2820 inc/translations.php:297
+msgid "Install"
+msgstr "Install"
+
+#: inc/class-tgm-plugin-activation.php:2829 inc/translations.php:296
+msgid "Activate"
+msgstr "Activate"
+
+#: inc/translations.php:292
+msgid "%1$s plugin adds drag and drop functionality and many other features to the %2$s theme."
+msgstr "%1$s plugin adds drag and drop functionality and many other features to the %2$s theme."
+
+#: inc/translations.php:287
+msgid "%1$s plugin is recommended for the %2$s contact section."
+msgstr "%1$s plugin is recommended for the %2$s contact section."
+
+#: inc/translations.php:285
+msgid "Leave a review"
+msgstr "Leave a review"
+
+#: inc/translations.php:283
+msgid "We strive to provide our customers with the best service in our industry, so your feedback is very important to us. We would greatly appreciate it if you would take a few minutes to share your experience with us via this survey."
+msgstr "We strive to provide our customers with the best service in our industry, so your feedback is very important to us. We would greatly appreciate it if you would take a few minutes to share your experience with us via this survey."
+
+#: inc/translations.php:282
+msgid "Leave a Review"
+msgstr "Leave a review"
+
+#: inc/translations.php:281
+msgid "Open a support ticket"
+msgstr "Open a support ticket"
+
+#: inc/translations.php:279
+msgid "Our technical team is here to help you build an awesome website. We usually answer support issues in less than 1 business day."
+msgstr "Our technical team is here to help you build an awesome website. We usually answer support issues in less than 1 business day."
+
+#: inc/translations.php:278
+msgid "Support"
+msgstr "Support"
+
+#: inc/translations.php:277
+msgid "Check documentation"
+msgstr "Check documentation"
+
+#: inc/translations.php:275
+msgid "Colibri is easy to learn and master, but you can always check out our documentation to check out features you might have missed."
+msgstr "Colibri is easy to learn and master, but you can always check out our documentation to check out features you might have missed."
+
+#: inc/translations.php:274
+msgid "Documentation"
+msgstr "Documentation"
+
+#: inc/translations.php:273
+msgid "Check all demo sites page"
+msgstr "Check all demo sites page"
+
+#: inc/translations.php:272
+msgid "Start with selected design"
+msgstr "Start with selected design"
+
+#: inc/translations.php:271
+msgid "Choose one of the Colibri predefined designs"
+msgstr "Choose one of the Colibri predefined designs"
+
+#: inc/translations.php:270
+msgid "Welcome to %s"
+msgstr "Welcome to %s"
+
+#: inc/translations.php:269
+msgid "Customize"
+msgstr "Customize"
+
+#: inc/translations.php:268
+msgid "Customize menu"
+msgstr "Customise menu"
+
+#: inc/translations.php:267
+msgid "Customize fonts"
+msgstr "Customise fonts"
+
+#: inc/translations.php:266
+msgid "Change color settings"
+msgstr "Change colour settings"
+
+#: inc/translations.php:265
+msgid "Customize footer"
+msgstr "Customise footer"
+
+#: inc/translations.php:264
+msgid "Customize frontpage hero"
+msgstr "Customise frontpage hero"
+
+#: inc/translations.php:263
+msgid "Customize navigation"
+msgstr "Customise navigation"
+
+#: inc/translations.php:262
+msgid "Change the hero image"
+msgstr "Change the hero image"
+
+#: inc/translations.php:261
+msgid "Set your logo"
+msgstr "Set your logo"
+
+#: inc/translations.php:260
+msgid "Links to Customizer Settings"
+msgstr "Links to Customiser Settings"
+
+#: inc/translations.php:259
+msgid "Recommended plugins"
+msgstr "Recommended plugins"
+
+#: inc/translations.php:258
+msgid "Get Started"
+msgstr "Get Started"
+
+#: inc/translations.php:257
+msgid "or"
+msgstr "or"
+
+#: inc/translations.php:253
+msgid "Thumbnail placeholder color"
+msgstr "Thumbnail placeholder colour"
+
+#: inc/translations.php:252
+msgid "Show thumbnail placeholder"
+msgstr "Show thumbnail placeholder"
+
+#: inc/translations.php:251
+msgid "Enable masonry"
+msgstr "Enable masonry"
+
+#: inc/translations.php:250
+msgid "Show blog sidebar "
+msgstr "Show blog sidebar "
+
+#: inc/translations.php:249
+msgid "Posts per row"
+msgstr "Posts per row"
+
+#: inc/translations.php:245
+msgid "Activate %s"
+msgstr "Activate %s"
+
+#: inc/translations.php:244
+msgid "Install %s"
+msgstr "Install %s"
+
+#: inc/translations.php:242
+msgid "To enable all the theme features, please install %s plugin"
+msgstr "To enable all the theme features, please install %s plugin"
+
+#: inc/translations.php:238
+msgid "Use footer parallax"
+msgstr "Use footer parallax"
+
+#: inc/translations.php:234
+msgid "Read More"
+msgstr "Read More"
+
+#: inc/translations.php:230
+msgid "Logo above"
+msgstr "Logo above"
+
+#: inc/translations.php:229
+msgid "Logo / Nav"
+msgstr "Logo / Nav"
+
+#: inc/translations.php:226
+msgid "Shutter out vertical"
+msgstr "Shutter out vertical"
+
+#: inc/translations.php:225
+msgid "Shutter in vertical"
+msgstr "Shutter in vertical"
+
+#: inc/translations.php:224
+msgid "Shutter out horizontal"
+msgstr "Shutter out horizontal"
+
+#: inc/translations.php:223
+msgid "Shutter in horizontal"
+msgstr "Shutter in horizontal"
+
+#: inc/translations.php:222
+msgid "Grow right"
+msgstr "Grow right"
+
+#: inc/translations.php:221
+msgid "Grow left"
+msgstr "Grow left"
+
+#: inc/translations.php:220
+msgid "Grow down"
+msgstr "Grow down"
+
+#: inc/translations.php:219
+msgid "Grow up"
+msgstr "Grow up"
+
+#: inc/translations.php:217
+msgid "Grow from center"
+msgstr "Grow from centre"
+
+#: inc/translations.php:216
+msgid "Grow from right"
+msgstr "Grow from right"
+
+#: inc/translations.php:215
+msgid "Grow from left"
+msgstr "Grow from left"
+
+#: inc/translations.php:214
+msgid "Drop out"
+msgstr "Drop out"
+
+#: inc/translations.php:213
+msgid "Drop in"
+msgstr "Drop in"
+
+#: inc/translations.php:211
+msgid "Background"
+msgstr "Background"
+
+#: inc/translations.php:210
+msgid "Double line"
+msgstr "Double line"
+
+#: inc/translations.php:209
+msgid "Top line"
+msgstr "Top line"
+
+#: inc/translations.php:208
+msgid "Bottom line"
+msgstr "Bottom line"
+
+#: inc/translations.php:205
+msgid "Button hover effect"
+msgstr "Button hover effect"
+
+#: inc/translations.php:204
+msgid "Button highlight type"
+msgstr "Button highlight type"
+
+#: inc/translations.php:203
+msgid "Mobile, tablet and desktop"
+msgstr "Mobile, tablet and desktop"
+
+#: inc/translations.php:202
+msgid "Mobile and tablet"
+msgstr "Mobile and tablet"
+
+#: inc/translations.php:201
+msgid "Mobile"
+msgstr "Mobile"
+
+#: inc/translations.php:200
+msgid "Show offscreen menu on"
+msgstr "Show offscreen menu on"
+
+#: inc/translations.php:199
+msgid "Edit Menu Structure"
+msgstr "Edit Menu Structure"
+
+#: inc/translations.php:198
+msgid "- No menu -"
+msgstr "- No menu -"
+
+#: inc/translations.php:197
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/translations.php:194
+msgid "Image with text on the left"
+msgstr "Image with text on the left"
+
+#: inc/translations.php:193
+msgid "Image with text above"
+msgstr "Image with text above"
+
+#: inc/translations.php:192
+msgid "Image with text on the right"
+msgstr "Image with text on the right"
+
+#: inc/translations.php:191
+msgid "Image with text below"
+msgstr "Image with text below"
+
+#: inc/translations.php:190
+msgid "Site title text only"
+msgstr "Site title text only"
+
+#: inc/translations.php:189
+msgid "Logo image only"
+msgstr "Logo image only"
+
+#: inc/translations.php:187
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/translations.php:186
+msgid "Navigation padding"
+msgstr "Navigation padding"
+
+#: inc/translations.php:185
+msgid "Alternate logo image"
+msgstr "Alternate logo image"
+
+#: inc/translations.php:184
+msgid "Layout type"
+msgstr "Layout type"
+
+#: inc/translations.php:181
+msgid "Button align"
+msgstr "Button align"
+
+#: inc/translations.php:180
+msgid "Transparent nav"
+msgstr "Transparent nav"
+
+#: inc/translations.php:179
+msgid "Full width"
+msgstr "Full width"
+
+#: inc/translations.php:178
+msgid "Container width"
+msgstr "Container width"
+
+#: inc/translations.php:177
+msgid "Boxed"
+msgstr "Boxed"
+
+#: inc/translations.php:176
+msgid "Show top bar"
+msgstr "Show top bar"
+
+#: inc/translations.php:175
+msgid "Stick on scroll"
+msgstr "Stick on scroll"
+
+#: inc/translations.php:172
+msgid "Text"
+msgstr "Text"
+
+#: inc/translations.php:171
+msgid "Icon"
+msgstr "Icon"
+
+#: inc/translations.php:170
+msgid "Add Icon"
+msgstr "Add Icon"
+
+#: inc/translations.php:169
+msgid "Add Item"
+msgstr "Add item"
+
+#: inc/translations.php:168
+msgid "Icon %s"
+msgstr "Icon %s"
+
+#: inc/translations.php:167
+msgid "Add Field"
+msgstr "Add Field"
+
+#: inc/translations.php:166
+msgid "Field %s"
+msgstr "Field %s"
+
+#: inc/translations.php:165
+msgid "Content Type"
+msgstr "Content Type"
+
+#: inc/translations.php:164
+msgid "Social Icons"
+msgstr "Social Icons"
+
+#: inc/translations.php:163
+msgid "Information Fields"
+msgstr "Information Fields"
+
+#: inc/translations.php:160
+msgid "Show frame shadow"
+msgstr "Show frame shadow"
+
+#: inc/translations.php:159
+msgid "Show frame over image"
+msgstr "Show frame over image"
+
+#: inc/translations.php:158
+msgid "Frame thickness"
+msgstr "Frame thickness"
+
+#: inc/translations.php:157
+msgid "Offset top"
+msgstr "Offset top"
+
+#: inc/translations.php:156
+msgid "Offset left"
+msgstr "Offset left"
+
+#: inc/translations.php:155
+msgid "Offset"
+msgstr "Offset"
+
+#: inc/translations.php:154
+msgid "Height"
+msgstr "Height"
+
+#: inc/translations.php:153
+msgid "Width"
+msgstr "Width"
+
+#: inc/translations.php:152
+msgid "Border"
+msgstr "Border"
+
+#: inc/class-tgm-plugin-activation.php:2646 inc/translations.php:151
+msgid "Type"
+msgstr "Type"
+
+#: inc/translations.php:150
+msgid "Frame options"
+msgstr "Frame options"
+
+#: inc/translations.php:149
+msgid "Blur"
+msgstr "Blur"
+
+#: inc/translations.php:148
+msgid "Spread"
+msgstr "Spread"
+
+#: inc/translations.php:147
+msgid "Vertical"
+msgstr "Vertical"
+
+#: inc/translations.php:146
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: inc/translations.php:145
+msgid "Box shadow"
+msgstr "Box shadow"
+
+#: inc/translations.php:142
+msgid "Text column width"
+msgstr "Text column width"
+
+#: inc/translations.php:141
+msgid "Full Height"
+msgstr "Full Height"
+
+#: inc/translations.php:140
+msgid "Spacing bottom"
+msgstr "Spacing bottom"
+
+#: inc/translations.php:139
+msgid "Spacing top"
+msgstr "Spacing top"
+
+#: inc/translations.php:138
+msgid "Align"
+msgstr "Align"
+
+#: inc/translations.php:137
+msgid "Icons"
+msgstr "Icons"
+
+#: inc/translations.php:136
+msgid "Link"
+msgstr "Link"
+
+#: inc/translations.php:135
+msgid "Label"
+msgstr "Label"
+
+#: inc/translations.php:134
+msgid "Secondary Button"
+msgstr "Secondary Button"
+
+#: inc/translations.php:133
+msgid "Primary Button"
+msgstr "Primary Button"
+
+#: inc/translations.php:132
+msgid "Button Type"
+msgstr "Button Type"
+
+#: inc/translations.php:131
+msgid "Buttons"
+msgstr "Buttons"
+
+#: inc/translations.php:130
+msgid "Add Button"
+msgstr "Add Button"
+
+#: inc/translations.php:129
+msgid "Button"
+msgstr "Button"
+
+#: inc/translations.php:128
+msgid "Text width"
+msgstr "Text width"
+
+#: inc/translations.php:127
+msgid "Subtitle"
+msgstr "Subtitle"
+
+#: inc/translations.php:126
+msgid "Title"
+msgstr "Title"
+
+#: inc/translations.php:125
+msgid "Show Subtitle"
+msgstr "Show Subtitle"
+
+#: inc/translations.php:124
+msgid "Show Title"
+msgstr "Show Title"
+
+#: inc/translations.php:123
+msgid "Text with media on left"
+msgstr "Text with media on left"
+
+#: inc/translations.php:122
+msgid "Text with media on right"
+msgstr "Text with media on right"
+
+#: inc/translations.php:121
+msgid "Text only"
+msgstr "Text only"
+
+#: inc/translations.php:120
+msgid "Hero layout"
+msgstr "Hero layout"
+
+#: inc/translations.php:117
+msgid "Overlay Shape"
+msgstr "Overlay Shape"
+
+#: inc/translations.php:116
+msgid "Shape Light"
+msgstr "Shape Light"
+
+#: inc/translations.php:115
+msgid "Right Tilted Strips"
+msgstr "Right Tilted Strips"
+
+#: inc/translations.php:114
+msgid "Right Tilted Lines"
+msgstr "Right Tilted Lines"
+
+#: inc/translations.php:113
+msgid "Left Tilted Lines"
+msgstr "Left Tilted Lines"
+
+#: inc/translations.php:112
+msgid "Dots"
+msgstr "Dots"
+
+#: inc/translations.php:111
+msgid "Waves Inverted"
+msgstr "Waves Inverted"
+
+#: inc/translations.php:110
+msgid "Circles White Gradient"
+msgstr "Circles White Gradient"
+
+#: inc/translations.php:109
+msgid "Circles Gradient"
+msgstr "Circles Gradient"
+
+#: inc/translations.php:108
+msgid "Circles 3"
+msgstr "Circles 3"
+
+#: inc/translations.php:107
+msgid "Circles 2"
+msgstr "Circles 2"
+
+#: inc/translations.php:106
+msgid "Two Circles"
+msgstr "Two Circles"
+
+#: inc/translations.php:105
+msgid "Many Rounded Squares Blue"
+msgstr "Many Rounded Squares Blue"
+
+#: inc/translations.php:104
+msgid "Rounded Square Blue"
+msgstr "Rounded Square Blue"
+
+#: inc/translations.php:103
+msgid "10deg Stripes"
+msgstr "10deg Stripes"
+
+#: inc/translations.php:102
+msgid "Circles"
+msgstr "Circles"
+
+#: inc/translations.php:101
+msgid "Opacity"
+msgstr "Opacity"
+
+#: inc/translations.php:100
+msgid "Shape Only"
+msgstr "Shape Only"
+
+#: inc/translations.php:99
+msgid "Overlay Type"
+msgstr "Overlay Type"
+
+#: inc/translations.php:98
+msgid "Show Background Overlay"
+msgstr "Show Background Overlay"
+
+#: inc/translations.php:97
+msgid "Youtube link"
+msgstr "YouTube Link"
+
+#: inc/translations.php:96
+msgid "Video Poster"
+msgstr "Video Poster"
+
+#: inc/translations.php:95
+msgid "External"
+msgstr "External"
+
+#: inc/translations.php:94
+msgid "Self Hosted Video"
+msgstr "Self Hosted Video"
+
+#: inc/translations.php:93
+msgid "Self Hosted"
+msgstr "Self Hosted"
+
+#: inc/translations.php:92
+msgid "Video type"
+msgstr "Video type"
+
+#: inc/translations.php:91
+msgid "Effect Speed"
+msgstr "Effect Speed"
+
+#: inc/translations.php:90
+msgid "Slide Duration"
+msgstr "Slide Duration"
+
+#: inc/translations.php:89
+msgid "Contain"
+msgstr "Contain"
+
+#: inc/translations.php:88
+msgid "Cover"
+msgstr "Cover"
+
+#: inc/translations.php:87
+msgid "Auto"
+msgstr "Auto"
+
+#: inc/translations.php:86
+msgid "Repeat %s"
+msgstr "Repeat %s"
+
+#: inc/translations.php:85
+msgid "Do not repeat"
+msgstr "Do not repeat"
+
+#: inc/translations.php:84
+msgid "Size"
+msgstr "Size"
+
+#: inc/translations.php:83
+msgid "Fixed"
+msgstr "Fixed"
+
+#: inc/translations.php:82
+msgid "Scroll"
+msgstr "Scroll"
+
+#: inc/translations.php:81
+msgid "Attachment"
+msgstr "Attachment"
+
+#: inc/translations.php:80
+msgid "Bottom Right"
+msgstr "Bottom Right"
+
+#: inc/translations.php:79
+msgid "Bottom Center"
+msgstr "Bottom Centre"
+
+#: inc/translations.php:78
+msgid "Bottom Left"
+msgstr "Bottom Left"
+
+#: inc/translations.php:77
+msgid "Center Right"
+msgstr "Centre Right"
+
+#: inc/translations.php:76
+msgid "Center Center"
+msgstr "Center Center"
+
+#: inc/translations.php:75
+msgid "Center Left"
+msgstr "Centre Left"
+
+#: inc/translations.php:74
+msgid "Top Right"
+msgstr "Top Right"
+
+#: inc/translations.php:73
+msgid "Top Center"
+msgstr "Top Centre"
+
+#: inc/translations.php:72
+msgid "Top Left"
+msgstr "Top Left"
+
+#: inc/translations.php:69
+msgid "Position"
+msgstr "Position"
+
+#: inc/translations.php:68
+msgid "Add Slide"
+msgstr "Add Slide"
+
+#: inc/translations.php:67
+msgid "Slide %s"
+msgstr "Slide %s"
+
+#: inc/translations.php:66
+msgid "Remove"
+msgstr "Remove"
+
+#: inc/translations.php:65
+msgid "Add"
+msgstr "Add"
+
+#: inc/translations.php:64
+msgid "None"
+msgstr "None"
+
+#: inc/translations.php:63
+msgid "Clear"
+msgstr "Clear"
+
+#: inc/translations.php:62
+msgid "OK"
+msgstr "OK"
+
+#: inc/translations.php:61
+msgid "Select image"
+msgstr "Select image"
+
+#: inc/translations.php:60
+msgid "Select item"
+msgstr "Select item"
+
+#: inc/translations.php:59
+msgid "Select"
+msgstr "Select"
+
+#: inc/translations.php:56
+msgid "Zigzag"
+msgstr "Zigzag"
+
+#: inc/translations.php:55
+msgid "Split"
+msgstr "Split"
+
+#: inc/translations.php:54
+msgid "Book"
+msgstr "Book"
+
+#: inc/translations.php:53
+msgid "Arrow"
+msgstr "Arrow"
+
+#: inc/translations.php:52
+msgid "Drops"
+msgstr "Drops"
+
+#: inc/translations.php:51
+msgid "Curve Asymmetrical"
+msgstr "Curve Asymmetrical"
+
+#: inc/translations.php:50
+msgid "Curve"
+msgstr "Curve"
+
+#: inc/translations.php:49
+msgid "Clouds"
+msgstr "Clouds"
+
+#: inc/translations.php:48
+msgid "Waves Pattern"
+msgstr "Waves Pattern"
+
+#: inc/translations.php:47
+msgid "Wave Brush"
+msgstr "Wave Brush"
+
+#: inc/translations.php:46
+msgid "Waves"
+msgstr "Waves"
+
+#: inc/translations.php:45
+msgid "Pyramids"
+msgstr "Pyramids"
+
+#: inc/translations.php:44
+msgid "Mountains"
+msgstr "Mountains"
+
+#: inc/translations.php:43
+msgid "Opacity Tilt "
+msgstr "Opacity Tilt "
+
+#: inc/translations.php:42
+msgid "Opacity Fan"
+msgstr "Opacity Fan"
+
+#: inc/translations.php:41
+msgid "Triangle Asymmetrical"
+msgstr "Triangle Asymmetrical"
+
+#: inc/translations.php:40
+msgid "Triangle"
+msgstr "Triangle"
+
+#: inc/translations.php:39
+msgid "Tilt Flipped"
+msgstr "Tilt Flipped"
+
+#: inc/translations.php:38
+msgid "Tilt"
+msgstr "Tilt"
+
+#: inc/translations.php:35
+msgid "Divider height"
+msgstr "Divider height"
+
+#: inc/translations.php:34
+msgid "Divider style"
+msgstr "Divider style"
+
+#: inc/translations.php:33
+msgid "Show bottom divider"
+msgstr "Show bottom divider"
+
+#: inc/translations.php:30
+msgid "Video"
+msgstr "Video"
+
+#: inc/translations.php:29
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: inc/translations.php:28
+msgid "Gradient"
+msgstr "Gradient"
+
+#: inc/translations.php:27
+msgid "Image"
+msgstr "Image"
+
+#: inc/translations.php:26
+msgid "Color"
+msgstr "Colour"
+
+#: inc/translations.php:25
+msgid "Background Image"
+msgstr "Background Image"
+
+#: inc/translations.php:24
+msgid "Background Color"
+msgstr "Background Colour"
+
+#: inc/translations.php:23
+msgid "Background Type"
+msgstr "Background Type"
+
+#: inc/translations.php:20
+msgid "Advanced"
+msgstr "Advanced"
+
+#: inc/translations.php:19
+msgid "Style"
+msgstr "Style"
+
+#: inc/translations.php:17
+msgid "Blog Settings"
+msgstr "Blog Settings"
+
+#: inc/translations.php:16
+msgid "Footer Settings"
+msgstr "Footer Settings"
+
+#: inc/translations.php:15
+msgid "Hero Settings"
+msgstr "Hero Settings"
+
+#: inc/translations.php:14
+msgid "Navigation Settings"
+msgstr "Navigation Settings"
+
+#: inc/translations.php:13
+msgid "Top Bar Settings"
+msgstr "Top Bar Settings"
+
+#: inc/translations.php:12
+msgid "Content Settings"
+msgstr "Content Settings"
+
+#: inc/translations.php:11 inc/translations.php:18
+msgid "Content"
+msgstr "Content"
+
+#: inc/translations.php:10
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/translations.php:9
+msgid "Header"
+msgstr "Header"
+
+#: inc/translations.php:8
+msgid "Help"
+msgstr "Help"
+
+#: inc/translations.php:6
+msgid "Press return or enter to open this section"
+msgstr "Press return or enter to open this section"
+
+#: inc/functions.php:150
+msgid "Blog sidebar widget area"
+msgstr "Blog sidebar widget area"
+
+#: inc/functions.php:146
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+#: inc/functions.php:145
+msgid "Header Menu"
+msgstr "Header Menu"
+
+#: inc/template-functions.php:421
+msgid "Built using WordPress and %s"
+msgstr "Built using WordPress and %s"
+
+#: inc/template-functions.php:206
+msgid "Post navigation"
+msgstr "Post navigation"
+
+#: inc/template-functions.php:187
+msgid "No Tag"
+msgstr "No Tag"
+
+#: inc/template-functions.php:154
+msgid "No Category"
+msgstr "No Category"
+
+#: inc/template-functions.php:12
+msgid "Search Results for &#8220;%s&#8221;"
+msgstr "Search Results for &#8220;%s&#8221;"
+
+#: inc/template-functions.php:10
+msgid "Page not found"
+msgstr "Page not found"
+
+#: inc/defaults.php:488
+msgid "Fullscreen"
+msgstr "Fullscreen"
+
+#: inc/defaults.php:479
+msgid "Classic"
+msgstr "Classic"
+
+#: inc/defaults.php:460 inc/defaults.php:469
+msgid "Modern"
+msgstr "Modern"
+
+#: inc/defaults.php:150
+msgid "Action Button %d"
+msgstr "Action Button %d"
+
+#: inc/defaults.php:146
+msgid "Just click and start typing to change the site headline."
+msgstr "Just click and start typing to change the site headline."
+
+#: inc/defaults.php:143
+msgid "Click the pencil icon to edit the text"
+msgstr "Click the pencil icon to edit the text"
+
+#: inc/src/Components/Footer.php:68
+msgid "Y"
+msgstr "Y"
+
+#: inc/src/Components/Footer.php:62
+msgid "Built using WordPress and the %s"
+msgstr "Built using WordPress and the %s"
+
+#: inc/src/Components/Footer.php:58
+msgid "Colibri Theme"
+msgstr "Colibri Theme"
+
+#: inc/src/View.php:188 inc/template-functions.php:278
+msgid "Posts navigation"
+msgstr "Posts navigation"
+
+#: inc/src/View.php:187 inc/src/View.php:195
+msgid "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"
+msgstr "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"
+
+#: inc/src/View.php:186 inc/src/View.php:193
+msgid "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>"
+msgstr "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>"
+
+#: comments.php:33
+msgid "Newer Comments <i class=\"font-icon-post fa fa-angle-double-right\"></i>"
+msgstr "Newer Comments <i class=\"font-icon-post fa fa-angle-double-right\"></i>"
+
+#: comments.php:29
+msgid "<i class=\"font-icon-post fa fa-angle-double-left\"></i> Older Comments"
+msgstr "<i class=\"font-icon-post fa fa-angle-double-left\"></i> Older Comments"
+
+#: comments.php:11
+msgid "One Response"
+msgstr "One Response"
+
+#: comments.php:11
+msgid "No Responses"
+msgstr "No Responses"
+
+#. Template Name of the theme
+msgid "Front Page Template"
+msgstr "Front Page Template"
+
+#. Template Name of the theme
+msgid "Full Width Template"
+msgstr "Full Width Template"
+
+#: functions.php:36
+msgid "Current php version is: %1$s and the mininum required version is %2$s"
+msgstr "Current PHP version is: %1$s and the mininum required version is %2$s"
+
+#: functions.php:33
+msgid "You need to update your PHP version to use the %s."
+msgstr "You need to update your PHP version to use the %s."
+
+#: functions.php:31
+msgid "Colibri theme activation failed!"
+msgstr "Colibri theme activation failed!"
+
+#: template-parts/main/404.php:28
+msgid "Go to Homepage!"
+msgstr "Go to Homepage!"
+
+#: template-parts/main/404.php:17
+msgid "Sorry, page not found!"
+msgstr "Sorry, page not found!"
+
+#: template-parts/layout-wrapper-content/navigation-container-1.php:28
+msgid "Next post"
+msgstr "Next post"
+
+#: template-parts/layout-wrapper-content/navigation-container-1.php:10
+msgid "Previous post"
+msgstr "Previous post"
+
+#: template-parts/main/item_template.php:31
+msgid "on"
+msgstr "on"
+
+#: template-parts/main/archive_item_template.php:23
+#: template-parts/main/item_template.php:23
+msgid "by"
+msgstr "by"
+
+#: template-parts/main/post.php:23
+msgid "{COMMENTS-COUNT} Responses"
+msgstr "{COMMENTS-COUNT} Responses"
+
+#: template-parts/main/search_item_template.php:82
+msgid "Read more"
+msgstr "Read more"
+
+#: inc/translations.php:7
+#: template-parts/layout-wrapper-content/navigation-container-2.php:37
+#: template-parts/main/search.php:27 template-parts/main/search.php:53
+msgid "Back"
+msgstr "Back"
+
+#: template-parts/layout-wrapper-content/navigation-container-2.php:11
+msgid "Previous"
+msgstr "Previous"
+
+#: template-parts/layout-wrapper-content/navigation-container-2.php:10
+#: template-parts/layout-wrapper-content/navigation-container-2.php:36
+#: template-parts/main/search.php:26 template-parts/main/search.php:52
+msgid "Next"
+msgstr "Next"
+
+#: template-parts/content/content-single.php:51
+#: template-parts/layout-wrapper-content/navigation-container-1.php:27
+msgid "Previous post:"
+msgstr "Previous post:"
+
+#: template-parts/content/content-single.php:49
+msgid "Previous:"
+msgstr "Previous:"
+
+#: template-parts/content/content-single.php:46
+#: template-parts/layout-wrapper-content/navigation-container-1.php:11
+msgid "Next post:"
+msgstr "Next post:"
+
+#: template-parts/content/content-single.php:44
+msgid "Next:"
+msgstr "Next:"
+
+#: inc/src/View.php:184 inc/template-functions.php:273
+#: template-parts/content/content-page.php:10
+#: template-parts/content/content-single.php:26
+msgid "Page"
+msgstr "Page"
+
+#: template-parts/content/content-page.php:6
+#: template-parts/content/content-single.php:21
+msgid "Pages:"
+msgstr "Pages:"
+
+#: template-parts/content/content-none.php:14
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+
+#: template-parts/content/content-none.php:10
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, but nothing matched your search terms. Please try again with different keywords."
+
+#: template-parts/content/content-none.php:7
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+
+#: template-parts/content/content-none.php:4
+msgid "Nothing Found"
+msgstr "Nothing found"
+
+#: comments.php:42 template-parts/blog/comments.php:37
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: template-parts/blog/comments.php:29
+msgid "Newer Comments"
+msgstr "Newer Comments"
+
+#: template-parts/blog/comments.php:26
+msgid "Older Comments"
+msgstr "Older Comments"
+
+#: comments.php:12 template-parts/blog/comments.php:14
+msgid "% Responses"
+msgstr "% Responses"
+
+#: template-parts/blog/comments.php:13 template-parts/main/post.php:22
+msgid "One response"
+msgstr "One response"
+
+#: template-parts/blog/comments.php:12 template-parts/main/post.php:21
+msgid "No responses yet"
+msgstr "No responses yet"
+
+#: template-parts/blog/searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr "Search"
+
+#: template-parts/blog/searchform.php:8
+msgid "Search &hellip;"
+msgstr "Search &hellip;"
+
+#: template-parts/blog/searchform.php:5
+msgctxt "label"
+msgid "Search for:"
+msgstr "Search for:"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://colibriwp.com/"
+msgstr "https://colibriwp.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Extend Themes"
+msgstr "Extend Themes"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://colibriwp.com/go/colibri-theme/"
+msgstr "https://colibriwp.com/go/colibri-theme/"

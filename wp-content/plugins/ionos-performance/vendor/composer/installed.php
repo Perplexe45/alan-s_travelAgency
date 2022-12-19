@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '96abaac8e73fb256b47d99296d2bdf482dc500cf',
+        'name' => 'ionos/ionos-performance',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'ionos/extension-detection' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'wordpress-package',
+            'install_path' => __DIR__ . '/../ionos/extension-detection',
+            'aliases' => array(),
+            'reference' => 'f81a44a3183b71113bad597fc085693266d4eaba',
+            'dev_requirement' => false,
+        ),
+        'ionos/ionos-library' => array(
+            'pretty_version' => '1.6.1',
+            'version' => '1.6.1.0',
+            'type' => 'wordpress-dropin',
+            'install_path' => __DIR__ . '/../ionos/ionos-library',
+            'aliases' => array(),
+            'reference' => 'e6b21d4b2ac40b807b084864c2fed4b8431bb971',
+            'dev_requirement' => false,
+        ),
+        'ionos/ionos-performance' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '96abaac8e73fb256b47d99296d2bdf482dc500cf',
+            'dev_requirement' => false,
+        ),
+    ),
+);
